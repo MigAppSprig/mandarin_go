@@ -6,6 +6,7 @@ import 'package:mandarin_go/data/dialogue_data.dart';
 import 'package:mandarin_go/data/pinyin_data.dart';
 import 'package:mandarin_go/data/translation_data.dart';
 import 'package:mandarin_go/data/vocabulary_data.dart';
+import 'package:mandarin_go/data/vocabulary_examples.dart';
 import 'package:mandarin_go/services/online_translator.dart';
 import 'package:mandarin_go/services/pinyin_audio_service.dart';
 import 'package:mandarin_go/services/pinyin_utils.dart';
@@ -68,6 +69,18 @@ void main() {
         expect(w.hanzi, isNotEmpty);
         expect(w.pinyin, isNotEmpty);
         expect(w.english, isNotEmpty);
+      }
+    });
+
+    test('every word has at least 2 example sentences', () {
+      for (final w in VocabularyData.all) {
+        final examples = VocabularyExamples.forWord(w);
+        expect(examples.length, greaterThanOrEqualTo(2), reason: w.id);
+        for (final ex in examples) {
+          expect(ex.hanzi, isNotEmpty, reason: w.id);
+          expect(ex.pinyin, isNotEmpty, reason: w.id);
+          expect(ex.english, isNotEmpty, reason: w.id);
+        }
       }
     });
 

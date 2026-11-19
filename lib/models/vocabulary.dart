@@ -1,3 +1,16 @@
+/// A single example sentence for a vocabulary word.
+class WordExample {
+  const WordExample({
+    required this.hanzi,
+    required this.pinyin,
+    required this.english,
+  });
+
+  final String hanzi;
+  final String pinyin;
+  final String english;
+}
+
 /// Vocabulary entry used by the flashcards, dictionary and translator.
 class Word {
   const Word({
@@ -28,4 +41,11 @@ class Word {
   final String exampleHanzi;
   final String examplePinyin;
   final String exampleEnglish;
+
+  /// The primary example as a [WordExample].
+  WordExample get example => WordExample(
+        hanzi: exampleHanzi,
+        pinyin: examplePinyin,
+        english: exampleEnglish,
+      );
 }

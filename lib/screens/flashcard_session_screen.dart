@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../data/vocabulary_examples.dart';
 import '../models/vocabulary.dart';
 import '../services/progress_controller.dart';
 import '../theme/app_theme.dart';
@@ -218,74 +219,87 @@ class _FlashcardSessionScreenState extends State<FlashcardSessionScreen> {
   }
 
   Widget _buildBack(Word word) {
+    final examples = VocabularyExamples.forWord(word);
     return Container(
       key: const ValueKey('back'),
       width: double.infinity,
-      padding: const EdgeInsets.all(24),
+      padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         color: AppColors.paper,
         borderRadius: BorderRadius.circular(24),
         border: Border.all(color: AppColors.gold.withValues(alpha: 0.5)),
       ),
+      child: SingleChildScrollView(
+        child: Column(
+          children: [
+            Text(
+              word.english,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.w700,
+                color: AppColors.ink,
+              ),
+            ),
+            const SizedBox(height: 6),
+            Text(
+              word.hanzi,
+              style: TextStyle(fontSize: 20, color: AppColors.muted),
+            ),
+            const SizedBox(height: 6),
+            ToneColoredPinyin(
+              pinyin: word.pinyin,
+              fontSize: 16,
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 16),
+            for (final ex in examples) ...[
+              _exampleBlock(ex),
+              const SizedBox(height: 8),
+            ],
+            const SizedBox(height: 4),
+            SpeakButton(text: word.hanzi),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _exampleBlock(WordExample ex) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(14),
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            word.english,
-            textAlign: TextAlign.center,
-            style: const TextStyle(
-              fontSize: 26,
-              fontWeight: FontWeight.w700,
-              color: AppColors.ink,
-            ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            word.hanzi,
-            style: TextStyle(fontSize: 22, color: AppColors.muted),
-          ),
-          const SizedBox(height: 8),
-          ToneColoredPinyin(pinyin: word.pinyin, fontSize: 16, textAlign: TextAlign.center),
-          const SizedBox(height: 20),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(14),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(14),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Expanded(
-                      child: Text(
-                        word.exampleHanzi,
-                        style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w600,
-                          color: AppColors.ink,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 8),
-                    SpeakButton(text: word.exampleHanzi, size: 34),
-                  ],
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: Text(
+                  ex.hanzi,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    color: AppColors.ink,
+                  ),
                 ),
-                const SizedBox(height: 4),
-                ToneColoredPinyin(pinyin: word.examplePinyin, fontSize: 13),
-                const SizedBox(height: 4),
-                Text(
-                  word.exampleEnglish,
-                  style: TextStyle(fontSize: 13, color: AppColors.muted),
-                ),
-              ],
-            ),
+              ),
+              const SizedBox(width: 8),
+              SpeakButton(text: ex.hanzi, size: 34),
+            ],
           ),
-          const SizedBox(height: 16),
-          SpeakButton(text: word.hanzi),
+          const SizedBox(height: 4),
+          ToneColoredPinyin(pinyin: ex.pinyin, fontSize: 13),
+          const SizedBox(height: 4),
+          Text(
+            ex.english,
+            style: TextStyle(fontSize: 13, color: AppColors.muted),
+          ),
         ],
       ),
     );

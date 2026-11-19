@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/vocabulary_data.dart';
+import '../data/vocabulary_examples.dart';
 import '../models/vocabulary.dart';
 import '../services/progress_controller.dart';
 import '../theme/app_theme.dart';
@@ -217,41 +218,44 @@ class HomeScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 16, color: AppColors.muted),
               ),
               const SizedBox(height: 14),
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(14),
-                decoration: BoxDecoration(
-                  color: AppColors.paper,
-                  borderRadius: BorderRadius.circular(14),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            word.exampleHanzi,
-                            style: const TextStyle(
-                              fontSize: 17,
-                              fontWeight: FontWeight.w600,
-                              color: AppColors.ink,
+              for (final ex in VocabularyExamples.forWord(word)) ...[
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(14),
+                  decoration: BoxDecoration(
+                    color: AppColors.paper,
+                    borderRadius: BorderRadius.circular(14),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              ex.hanzi,
+                              style: const TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w600,
+                                color: AppColors.ink,
+                              ),
                             ),
                           ),
-                        ),
-                        SpeakButton(text: word.exampleHanzi, size: 36),
-                      ],
-                    ),
-                    const SizedBox(height: 6),
-                    ToneColoredPinyin(pinyin: word.examplePinyin, fontSize: 14),
-                    const SizedBox(height: 4),
-                    Text(
-                      word.exampleEnglish,
-                      style: TextStyle(fontSize: 14, color: AppColors.muted),
-                    ),
-                  ],
+                          SpeakButton(text: ex.hanzi, size: 36),
+                        ],
+                      ),
+                      const SizedBox(height: 6),
+                      ToneColoredPinyin(pinyin: ex.pinyin, fontSize: 14),
+                      const SizedBox(height: 4),
+                      Text(
+                        ex.english,
+                        style: TextStyle(fontSize: 14, color: AppColors.muted),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
+                const SizedBox(height: 8),
+              ],
             ],
           ),
         ],
