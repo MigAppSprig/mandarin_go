@@ -71,6 +71,28 @@ flutter test      # 单元测试（应全部通过）
 
 ---
 
+## 🌐 Web 版本
+
+构建 Web 版：
+
+```bash
+flutter build web --release
+# 产物在 build/web/
+```
+
+本地预览（Web 版需要 HTTP 服务器，不能直接双击 index.html）：
+
+```bash
+cd build/web && python3 -m http.server 8080
+# 浏览器打开 http://localhost:8080
+```
+
+部署到 GitHub Pages：仓库已内置 `.github/workflows/deploy-pages.yml`，推送到 `main` 分支后会自动构建并发布到 `gh-pages` 分支；再到仓库 **Settings → Pages → Source** 选 `gh-pages` 分支即可。访问地址：`https://<用户名>.github.io/<仓库名>/`。
+
+> 说明：Web 版发音依赖浏览器的语音合成（中文语音随系统/浏览器提供），音素音频用 HTML5 audio 播放。
+
+---
+
 ## 📦 其他人如何安装（另一台 Mac）
 
 给另一台同样用 Mac 的人，按顺序做两步：

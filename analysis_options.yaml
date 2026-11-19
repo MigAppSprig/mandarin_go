@@ -14,6 +14,7 @@ analyzer:
     - build/**
     - android/**
     - ios/**
+    - web/**
   errors:
     # The Flutter master channel (3.47+) deprecates `package:flutter/material.dart`
     # in favour of the experimental `material_ui` package. We keep the stable,
