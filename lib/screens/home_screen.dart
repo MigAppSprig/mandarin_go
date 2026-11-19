@@ -7,6 +7,7 @@ import '../services/progress_controller.dart';
 import '../theme/app_theme.dart';
 import '../widgets/speak_button.dart';
 import '../widgets/tone_colored_pinyin.dart';
+import 'about_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -24,6 +25,17 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('MandarinGo · 学中文'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.info_outline),
+            tooltip: 'About',
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (_) => const AboutScreen(),
+                ),
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.settings_outlined),
             tooltip: 'Settings',

@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../services/progress_controller.dart';
 import '../services/tts_service.dart';
 import '../theme/app_theme.dart';
+import 'about_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -78,31 +79,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ),
           _buildSectionHeader('About'),
-          const Card(
-            child: Padding(
-              padding: EdgeInsets.all(20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'MandarinGo',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
-                  ),
-                  SizedBox(height: 4),
-                  Text(
-                    'A beginner-friendly Mandarin learning app for English speakers.',
-                    style: TextStyle(fontSize: 14, color: AppColors.muted),
-                  ),
-                  SizedBox(height: 12),
-                  Text(
-                    '• Pinyin tones, initials and finals\n'
-                    '• Spaced-repetition flashcards\n'
-                    '• Real-life dialogues with audio\n'
-                    '• Offline English → Chinese dictionary',
-                    style: TextStyle(fontSize: 13, height: 1.6, color: AppColors.muted),
-                  ),
-                ],
-              ),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.info_outline, color: AppColors.jade),
+              title: const Text('About & Contact'),
+              subtitle: const Text('App info, features and feedback email'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(builder: (_) => const AboutScreen()),
+                );
+              },
             ),
           ),
         ],
