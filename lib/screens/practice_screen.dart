@@ -5,6 +5,7 @@ import '../data/vocabulary_data.dart';
 import '../models/vocabulary.dart';
 import '../services/progress_controller.dart';
 import '../theme/app_theme.dart';
+import 'fill_blank_screen.dart';
 import 'flashcard_session_screen.dart';
 import 'listen_write_screen.dart';
 import 'pinyin_discrimination_screen.dart';
@@ -70,6 +71,17 @@ class _PracticeScreenState extends State<PracticeScreen> {
             onTap: () => _push(
               context,
               ListenWriteScreen(words: words, title: _scopeLabel),
+            ),
+          ),
+          _modeCard(
+            context,
+            emoji: '🧩',
+            title: 'Fill the blank',
+            subtitle: 'Pick the right word to complete the sentence',
+            color: const Color(0xFF6A1B9A),
+            onTap: () => _push(
+              context,
+              FillBlankScreen(words: words, title: _scopeLabel),
             ),
           ),
           _modeCard(

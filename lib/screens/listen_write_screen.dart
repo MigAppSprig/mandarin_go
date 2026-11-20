@@ -253,6 +253,37 @@ class _ListenWriteScreenState extends State<ListenWriteScreen> {
                     word.english,
                     style: TextStyle(fontSize: 14, color: AppColors.muted),
                   ),
+                  const SizedBox(height: 8),
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          word.exampleHanzi,
+                          style: const TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                            color: AppColors.ink,
+                          ),
+                        ),
+                        const SizedBox(height: 2),
+                        ToneColoredPinyin(
+                          pinyin: word.examplePinyin,
+                          fontSize: 12,
+                        ),
+                        Text(
+                          word.exampleEnglish,
+                          style: TextStyle(fontSize: 12, color: AppColors.muted),
+                        ),
+                      ],
+                    ),
+                  ),
                   const SizedBox(height: 10),
                   FilledButton(
                     onPressed: _next,
