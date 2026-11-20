@@ -19,6 +19,7 @@ class Dialogue {
     required this.subtitle,
     required this.emoji,
     required this.lines,
+    this.phrases = const <DialogueLine>[],
   });
 
   final String id;
@@ -32,4 +33,7 @@ class Dialogue {
   /// Ordered list of alternating speakers (the speaker name is derived from
   /// the position: even index = Person A, odd index = Person B).
   final List<DialogueLine> lines;
+
+  /// Extra "key phrases" for the situation, shown below the conversation.
+  final List<DialogueLine> phrases;
 }
