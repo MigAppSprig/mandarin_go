@@ -10,7 +10,7 @@ class VocabularyData {
   static const List<Word> all = <Word>[
     // ── Greetings & basics ────────────────────────────────────────────────
     Word(
-      id: '你好',
+      id: '你好', hskLevel: 1,
       hanzi: '你好',
       pinyin: 'nǐ hǎo',
       english: 'hello',
@@ -20,7 +20,7 @@ class VocabularyData {
       exampleEnglish: 'Hello, my name is Li Ming.',
     ),
     Word(
-      id: '您好',
+      id: '您好', hskLevel: 1,
       hanzi: '您好',
       pinyin: 'nín hǎo',
       english: 'hello (polite)',
@@ -30,7 +30,7 @@ class VocabularyData {
       exampleEnglish: 'Hello, teacher!',
     ),
     Word(
-      id: '谢谢',
+      id: '谢谢', hskLevel: 1,
       hanzi: '谢谢',
       pinyin: 'xiè xie',
       english: 'thank you',
@@ -40,7 +40,7 @@ class VocabularyData {
       exampleEnglish: 'Thank you for your help.',
     ),
     Word(
-      id: '再见',
+      id: '再见', hskLevel: 1,
       hanzi: '再见',
       pinyin: 'zài jiàn',
       english: 'goodbye',
@@ -50,7 +50,7 @@ class VocabularyData {
       exampleEnglish: 'See you tomorrow, goodbye!',
     ),
     Word(
-      id: '对不起',
+      id: '对不起', hskLevel: 1,
       hanzi: '对不起',
       pinyin: 'duì bu qǐ',
       english: 'sorry',
@@ -60,7 +60,7 @@ class VocabularyData {
       exampleEnglish: 'Sorry, I am late.',
     ),
     Word(
-      id: '没关系',
+      id: '没关系', hskLevel: 1,
       hanzi: '没关系',
       pinyin: 'méi guān xi',
       english: "it's okay / no problem",
@@ -70,7 +70,7 @@ class VocabularyData {
       exampleEnglish: "It's fine, don't worry.",
     ),
     Word(
-      id: '请',
+      id: '请', hskLevel: 1,
       hanzi: '请',
       pinyin: 'qǐng',
       english: 'please',
@@ -80,7 +80,7 @@ class VocabularyData {
       exampleEnglish: 'Please sit down.',
     ),
     Word(
-      id: '不客气',
+      id: '不客气', hskLevel: 1,
       hanzi: '不客气',
       pinyin: 'bú kè qi',
       english: "you're welcome",
@@ -90,7 +90,7 @@ class VocabularyData {
       exampleEnglish: '"Thank you!" "You\'re welcome."',
     ),
     Word(
-      id: '早上好',
+      id: '早上好', hskLevel: 1,
       hanzi: '早上好',
       pinyin: 'zǎo shang hǎo',
       english: 'good morning',
@@ -100,7 +100,7 @@ class VocabularyData {
       exampleEnglish: 'Good morning, Mom!',
     ),
     Word(
-      id: '晚安',
+      id: '晚安', hskLevel: 1,
       hanzi: '晚安',
       pinyin: 'wǎn ān',
       english: 'good night',
@@ -110,7 +110,7 @@ class VocabularyData {
       exampleEnglish: 'Good night, sweet dreams.',
     ),
     Word(
-      id: '你好吗',
+      id: '你好吗', hskLevel: 1,
       hanzi: '你好吗',
       pinyin: 'nǐ hǎo ma',
       english: 'how are you?',
@@ -122,7 +122,7 @@ class VocabularyData {
 
     // ── Pronouns & people ─────────────────────────────────────────────────
     Word(
-      id: '我',
+      id: '我', hskLevel: 1,
       hanzi: '我',
       pinyin: 'wǒ',
       english: 'I, me',
@@ -132,7 +132,7 @@ class VocabularyData {
       exampleEnglish: 'I am a student.',
     ),
     Word(
-      id: '你',
+      id: '你', hskLevel: 1,
       hanzi: '你',
       pinyin: 'nǐ',
       english: 'you',
@@ -142,7 +142,7 @@ class VocabularyData {
       exampleEnglish: 'Hello!',
     ),
     Word(
-      id: '他',
+      id: '他', hskLevel: 1,
       hanzi: '他',
       pinyin: 'tā',
       english: 'he, him',
@@ -152,7 +152,7 @@ class VocabularyData {
       exampleEnglish: 'He is my friend.',
     ),
     Word(
-      id: '她',
+      id: '她', hskLevel: 1,
       hanzi: '她',
       pinyin: 'tā',
       english: 'she, her',
@@ -162,7 +162,7 @@ class VocabularyData {
       exampleEnglish: 'She is my teacher.',
     ),
     Word(
-      id: '我们',
+      id: '我们', hskLevel: 1,
       hanzi: '我们',
       pinyin: 'wǒ men',
       english: 'we, us',
@@ -172,7 +172,7 @@ class VocabularyData {
       exampleEnglish: 'We are good friends.',
     ),
     Word(
-      id: '你们',
+      id: '你们', hskLevel: 1,
       hanzi: '你们',
       pinyin: 'nǐ men',
       english: 'you (plural)',
@@ -182,7 +182,7 @@ class VocabularyData {
       exampleEnglish: 'Hello (everyone)!',
     ),
     Word(
-      id: '他们',
+      id: '他们', hskLevel: 1,
       hanzi: '他们',
       pinyin: 'tā men',
       english: 'they, them',
@@ -192,7 +192,7 @@ class VocabularyData {
       exampleEnglish: 'They are all Chinese.',
     ),
     Word(
-      id: '人',
+      id: '人', hskLevel: 1,
       hanzi: '人',
       pinyin: 'rén',
       english: 'person, people',
@@ -202,7 +202,7 @@ class VocabularyData {
       exampleEnglish: 'There are many people here.',
     ),
     Word(
-      id: '朋友',
+      id: '朋友', hskLevel: 1,
       hanzi: '朋友',
       pinyin: 'péng you',
       english: 'friend',
@@ -212,7 +212,7 @@ class VocabularyData {
       exampleEnglish: 'She is my good friend.',
     ),
     Word(
-      id: '老师',
+      id: '老师', hskLevel: 1,
       hanzi: '老师',
       pinyin: 'lǎo shī',
       english: 'teacher',
@@ -222,7 +222,7 @@ class VocabularyData {
       exampleEnglish: 'Teacher Wang teaches Chinese.',
     ),
     Word(
-      id: '学生',
+      id: '学生', hskLevel: 1,
       hanzi: '学生',
       pinyin: 'xué sheng',
       english: 'student',
@@ -232,7 +232,7 @@ class VocabularyData {
       exampleEnglish: 'I am a university student.',
     ),
     Word(
-      id: '医生',
+      id: '医生', hskLevel: 1,
       hanzi: '医生',
       pinyin: 'yī shēng',
       english: 'doctor',
@@ -244,7 +244,7 @@ class VocabularyData {
 
     // ── Numbers ───────────────────────────────────────────────────────────
     Word(
-      id: '零',
+      id: '零', hskLevel: 1,
       hanzi: '零',
       pinyin: 'líng',
       english: 'zero',
@@ -254,7 +254,7 @@ class VocabularyData {
       exampleEnglish: 'My number is 201.',
     ),
     Word(
-      id: '一',
+      id: '一', hskLevel: 1,
       hanzi: '一',
       pinyin: 'yī',
       english: 'one',
@@ -264,7 +264,7 @@ class VocabularyData {
       exampleEnglish: 'I have one apple.',
     ),
     Word(
-      id: '二',
+      id: '二', hskLevel: 1,
       hanzi: '二',
       pinyin: 'èr',
       english: 'two',
@@ -274,7 +274,7 @@ class VocabularyData {
       exampleEnglish: 'I have two older brothers.',
     ),
     Word(
-      id: '三',
+      id: '三', hskLevel: 1,
       hanzi: '三',
       pinyin: 'sān',
       english: 'three',
@@ -284,7 +284,7 @@ class VocabularyData {
       exampleEnglish: 'Three books.',
     ),
     Word(
-      id: '四',
+      id: '四', hskLevel: 1,
       hanzi: '四',
       pinyin: 'sì',
       english: 'four',
@@ -294,7 +294,7 @@ class VocabularyData {
       exampleEnglish: 'There are four people in my family.',
     ),
     Word(
-      id: '五',
+      id: '五', hskLevel: 1,
       hanzi: '五',
       pinyin: 'wǔ',
       english: 'five',
@@ -304,7 +304,7 @@ class VocabularyData {
       exampleEnglish: 'Five students.',
     ),
     Word(
-      id: '六',
+      id: '六', hskLevel: 1,
       hanzi: '六',
       pinyin: 'liù',
       english: 'six',
@@ -314,7 +314,7 @@ class VocabularyData {
       exampleEnglish: 'June is summer.',
     ),
     Word(
-      id: '七',
+      id: '七', hskLevel: 1,
       hanzi: '七',
       pinyin: 'qī',
       english: 'seven',
@@ -324,7 +324,7 @@ class VocabularyData {
       exampleEnglish: 'A week has seven days.',
     ),
     Word(
-      id: '八',
+      id: '八', hskLevel: 1,
       hanzi: '八',
       pinyin: 'bā',
       english: 'eight',
@@ -334,7 +334,7 @@ class VocabularyData {
       exampleEnglish: 'It is eight o\'clock now.',
     ),
     Word(
-      id: '九',
+      id: '九', hskLevel: 1,
       hanzi: '九',
       pinyin: 'jiǔ',
       english: 'nine',
@@ -344,7 +344,7 @@ class VocabularyData {
       exampleEnglish: 'School starts in September.',
     ),
     Word(
-      id: '十',
+      id: '十', hskLevel: 1,
       hanzi: '十',
       pinyin: 'shí',
       english: 'ten',
@@ -354,7 +354,7 @@ class VocabularyData {
       exampleEnglish: 'Ten cups.',
     ),
     Word(
-      id: '百',
+      id: '百', hskLevel: 1,
       hanzi: '百',
       pinyin: 'bǎi',
       english: 'hundred',
@@ -366,7 +366,7 @@ class VocabularyData {
 
     // ── Family ────────────────────────────────────────────────────────────
     Word(
-      id: '家',
+      id: '家', hskLevel: 1,
       hanzi: '家',
       pinyin: 'jiā',
       english: 'home, family',
@@ -376,7 +376,7 @@ class VocabularyData {
       exampleEnglish: 'I love my family.',
     ),
     Word(
-      id: '爸爸',
+      id: '爸爸', hskLevel: 1,
       hanzi: '爸爸',
       pinyin: 'bà ba',
       english: 'dad, father',
@@ -386,7 +386,7 @@ class VocabularyData {
       exampleEnglish: 'My dad is very tall.',
     ),
     Word(
-      id: '妈妈',
+      id: '妈妈', hskLevel: 1,
       hanzi: '妈妈',
       pinyin: 'mā ma',
       english: 'mom, mother',
@@ -396,7 +396,7 @@ class VocabularyData {
       exampleEnglish: 'My mom can cook.',
     ),
     Word(
-      id: '哥哥',
+      id: '哥哥', hskLevel: 1,
       hanzi: '哥哥',
       pinyin: 'gē ge',
       english: 'older brother',
@@ -406,7 +406,7 @@ class VocabularyData {
       exampleEnglish: 'My older brother is a doctor.',
     ),
     Word(
-      id: '姐姐',
+      id: '姐姐', hskLevel: 1,
       hanzi: '姐姐',
       pinyin: 'jiě jie',
       english: 'older sister',
@@ -416,7 +416,7 @@ class VocabularyData {
       exampleEnglish: 'My older sister is in Beijing.',
     ),
     Word(
-      id: '弟弟',
+      id: '弟弟', hskLevel: 1,
       hanzi: '弟弟',
       pinyin: 'dì di',
       english: 'younger brother',
@@ -426,7 +426,7 @@ class VocabularyData {
       exampleEnglish: 'My younger brother likes reading.',
     ),
     Word(
-      id: '妹妹',
+      id: '妹妹', hskLevel: 1,
       hanzi: '妹妹',
       pinyin: 'mèi mei',
       english: 'younger sister',
@@ -436,7 +436,7 @@ class VocabularyData {
       exampleEnglish: 'My younger sister is very cute.',
     ),
     Word(
-      id: '儿子',
+      id: '儿子', hskLevel: 1,
       hanzi: '儿子',
       pinyin: 'ér zi',
       english: 'son',
@@ -446,7 +446,7 @@ class VocabularyData {
       exampleEnglish: 'His son is eight years old.',
     ),
     Word(
-      id: '女儿',
+      id: '女儿', hskLevel: 1,
       hanzi: '女儿',
       pinyin: 'nǚ ér',
       english: 'daughter',
@@ -456,7 +456,7 @@ class VocabularyData {
       exampleEnglish: 'Her daughter is very smart.',
     ),
     Word(
-      id: '孩子',
+      id: '孩子', hskLevel: 1,
       hanzi: '孩子',
       pinyin: 'hái zi',
       english: 'child, kid',
@@ -468,7 +468,7 @@ class VocabularyData {
 
     // ── Food & drink ──────────────────────────────────────────────────────
     Word(
-      id: '吃',
+      id: '吃', hskLevel: 1,
       hanzi: '吃',
       pinyin: 'chī',
       english: 'to eat',
@@ -478,7 +478,7 @@ class VocabularyData {
       exampleEnglish: 'I want to eat rice.',
     ),
     Word(
-      id: '喝',
+      id: '喝', hskLevel: 1,
       hanzi: '喝',
       pinyin: 'hē',
       english: 'to drink',
@@ -488,7 +488,7 @@ class VocabularyData {
       exampleEnglish: 'What would you like to drink?',
     ),
     Word(
-      id: '水',
+      id: '水', hskLevel: 1,
       hanzi: '水',
       pinyin: 'shuǐ',
       english: 'water',
@@ -498,7 +498,7 @@ class VocabularyData {
       exampleEnglish: 'Please give me a glass of water.',
     ),
     Word(
-      id: '茶',
+      id: '茶', hskLevel: 1,
       hanzi: '茶',
       pinyin: 'chá',
       english: 'tea',
@@ -508,7 +508,7 @@ class VocabularyData {
       exampleEnglish: 'I like drinking tea.',
     ),
     Word(
-      id: '咖啡',
+      id: '咖啡', hskLevel: 1,
       hanzi: '咖啡',
       pinyin: 'kā fēi',
       english: 'coffee',
@@ -518,7 +518,7 @@ class VocabularyData {
       exampleEnglish: 'A cup of coffee, please.',
     ),
     Word(
-      id: '牛奶',
+      id: '牛奶', hskLevel: 1,
       hanzi: '牛奶',
       pinyin: 'niú nǎi',
       english: 'milk',
@@ -528,7 +528,7 @@ class VocabularyData {
       exampleEnglish: 'I drink milk in the morning.',
     ),
     Word(
-      id: '米饭',
+      id: '米饭', hskLevel: 1,
       hanzi: '米饭',
       pinyin: 'mǐ fàn',
       english: 'cooked rice',
@@ -538,7 +538,7 @@ class VocabularyData {
       exampleEnglish: 'I want a bowl of rice.',
     ),
     Word(
-      id: '面包',
+      id: '面包', hskLevel: 1,
       hanzi: '面包',
       pinyin: 'miàn bāo',
       english: 'bread',
@@ -548,7 +548,7 @@ class VocabularyData {
       exampleEnglish: 'I eat bread for breakfast.',
     ),
     Word(
-      id: '苹果',
+      id: '苹果', hskLevel: 1,
       hanzi: '苹果',
       pinyin: 'píng guǒ',
       english: 'apple',
@@ -558,7 +558,7 @@ class VocabularyData {
       exampleEnglish: 'This apple is very big.',
     ),
     Word(
-      id: '鸡蛋',
+      id: '鸡蛋', hskLevel: 1,
       hanzi: '鸡蛋',
       pinyin: 'jī dàn',
       english: 'egg',
@@ -568,7 +568,7 @@ class VocabularyData {
       exampleEnglish: 'I eat two eggs.',
     ),
     Word(
-      id: '菜',
+      id: '菜', hskLevel: 1,
       hanzi: '菜',
       pinyin: 'cài',
       english: 'dish, vegetable',
@@ -578,7 +578,7 @@ class VocabularyData {
       exampleEnglish: 'This dish is delicious.',
     ),
     Word(
-      id: '肉',
+      id: '肉', hskLevel: 1,
       hanzi: '肉',
       pinyin: 'ròu',
       english: 'meat',
@@ -588,7 +588,7 @@ class VocabularyData {
       exampleEnglish: 'I don\'t eat meat.',
     ),
     Word(
-      id: '水果',
+      id: '水果', hskLevel: 1,
       hanzi: '水果',
       pinyin: 'shuǐ guǒ',
       english: 'fruit',
@@ -600,7 +600,7 @@ class VocabularyData {
 
     // ── Time ──────────────────────────────────────────────────────────────
     Word(
-      id: '今天',
+      id: '今天', hskLevel: 1,
       hanzi: '今天',
       pinyin: 'jīn tiān',
       english: 'today',
@@ -610,7 +610,7 @@ class VocabularyData {
       exampleEnglish: 'The weather is nice today.',
     ),
     Word(
-      id: '明天',
+      id: '明天', hskLevel: 1,
       hanzi: '明天',
       pinyin: 'míng tiān',
       english: 'tomorrow',
@@ -620,7 +620,7 @@ class VocabularyData {
       exampleEnglish: 'See you tomorrow!',
     ),
     Word(
-      id: '昨天',
+      id: '昨天', hskLevel: 1,
       hanzi: '昨天',
       pinyin: 'zuó tiān',
       english: 'yesterday',
@@ -630,7 +630,7 @@ class VocabularyData {
       exampleEnglish: 'I went to the shop yesterday.',
     ),
     Word(
-      id: '现在',
+      id: '现在', hskLevel: 1,
       hanzi: '现在',
       pinyin: 'xiàn zài',
       english: 'now',
@@ -640,7 +640,7 @@ class VocabularyData {
       exampleEnglish: 'What time is it now?',
     ),
     Word(
-      id: '早上',
+      id: '早上', hskLevel: 1,
       hanzi: '早上',
       pinyin: 'zǎo shang',
       english: 'morning',
@@ -650,7 +650,7 @@ class VocabularyData {
       exampleEnglish: 'I get up at 7 in the morning.',
     ),
     Word(
-      id: '中午',
+      id: '中午', hskLevel: 1,
       hanzi: '中午',
       pinyin: 'zhōng wǔ',
       english: 'noon, midday',
@@ -660,7 +660,7 @@ class VocabularyData {
       exampleEnglish: 'We eat together at noon.',
     ),
     Word(
-      id: '晚上',
+      id: '晚上', hskLevel: 1,
       hanzi: '晚上',
       pinyin: 'wǎn shang',
       english: 'evening, night',
@@ -670,7 +670,7 @@ class VocabularyData {
       exampleEnglish: 'I watch TV in the evening.',
     ),
     Word(
-      id: '年',
+      id: '年', hskLevel: 1,
       hanzi: '年',
       pinyin: 'nián',
       english: 'year',
@@ -680,7 +680,7 @@ class VocabularyData {
       exampleEnglish: 'This year is 2026.',
     ),
     Word(
-      id: '月',
+      id: '月', hskLevel: 1,
       hanzi: '月',
       pinyin: 'yuè',
       english: 'month',
@@ -690,7 +690,7 @@ class VocabularyData {
       exampleEnglish: 'January is very cold.',
     ),
     Word(
-      id: '星期',
+      id: '星期', hskLevel: 1,
       hanzi: '星期',
       pinyin: 'xīng qī',
       english: 'week',
@@ -700,7 +700,7 @@ class VocabularyData {
       exampleEnglish: 'I go to school on Monday.',
     ),
     Word(
-      id: '时间',
+      id: '时间', hskLevel: 1,
       hanzi: '时间',
       pinyin: 'shí jiān',
       english: 'time',
@@ -712,7 +712,7 @@ class VocabularyData {
 
     // ── Common verbs ──────────────────────────────────────────────────────
     Word(
-      id: '是',
+      id: '是', hskLevel: 1,
       hanzi: '是',
       pinyin: 'shì',
       english: 'to be (am/is/are)',
@@ -722,7 +722,7 @@ class VocabularyData {
       exampleEnglish: 'I am Chinese.',
     ),
     Word(
-      id: '有',
+      id: '有', hskLevel: 1,
       hanzi: '有',
       pinyin: 'yǒu',
       english: 'to have',
@@ -732,7 +732,7 @@ class VocabularyData {
       exampleEnglish: 'I have a question.',
     ),
     Word(
-      id: '去',
+      id: '去', hskLevel: 1,
       hanzi: '去',
       pinyin: 'qù',
       english: 'to go',
@@ -742,7 +742,7 @@ class VocabularyData {
       exampleEnglish: 'I go to school.',
     ),
     Word(
-      id: '来',
+      id: '来', hskLevel: 1,
       hanzi: '来',
       pinyin: 'lái',
       english: 'to come',
@@ -752,7 +752,7 @@ class VocabularyData {
       exampleEnglish: 'Please come to my home.',
     ),
     Word(
-      id: '想',
+      id: '想', hskLevel: 1,
       hanzi: '想',
       pinyin: 'xiǎng',
       english: 'to want, to think',
@@ -762,7 +762,7 @@ class VocabularyData {
       exampleEnglish: 'I want to drink water.',
     ),
     Word(
-      id: '要',
+      id: '要', hskLevel: 1,
       hanzi: '要',
       pinyin: 'yào',
       english: 'to want, to need',
@@ -772,7 +772,7 @@ class VocabularyData {
       exampleEnglish: 'I want to buy this.',
     ),
     Word(
-      id: '说',
+      id: '说', hskLevel: 1,
       hanzi: '说',
       pinyin: 'shuō',
       english: 'to speak, to say',
@@ -782,7 +782,7 @@ class VocabularyData {
       exampleEnglish: 'I can speak a little Chinese.',
     ),
     Word(
-      id: '看',
+      id: '看', hskLevel: 1,
       hanzi: '看',
       pinyin: 'kàn',
       english: 'to look, to watch',
@@ -792,7 +792,7 @@ class VocabularyData {
       exampleEnglish: 'I like watching movies.',
     ),
     Word(
-      id: '听',
+      id: '听', hskLevel: 1,
       hanzi: '听',
       pinyin: 'tīng',
       english: 'to listen',
@@ -802,7 +802,7 @@ class VocabularyData {
       exampleEnglish: 'I listen to music.',
     ),
     Word(
-      id: '写',
+      id: '写', hskLevel: 1,
       hanzi: '写',
       pinyin: 'xiě',
       english: 'to write',
@@ -812,7 +812,7 @@ class VocabularyData {
       exampleEnglish: 'Please write your name.',
     ),
     Word(
-      id: '读',
+      id: '读', hskLevel: 1,
       hanzi: '读',
       pinyin: 'dú',
       english: 'to read',
@@ -822,7 +822,7 @@ class VocabularyData {
       exampleEnglish: 'I like reading books.',
     ),
     Word(
-      id: '学',
+      id: '学', hskLevel: 1,
       hanzi: '学',
       pinyin: 'xué',
       english: 'to learn, to study',
@@ -832,7 +832,7 @@ class VocabularyData {
       exampleEnglish: 'I am learning Chinese.',
     ),
     Word(
-      id: '做',
+      id: '做', hskLevel: 1,
       hanzi: '做',
       pinyin: 'zuò',
       english: 'to do, to make',
@@ -842,7 +842,7 @@ class VocabularyData {
       exampleEnglish: 'I am doing homework.',
     ),
     Word(
-      id: '买',
+      id: '买', hskLevel: 1,
       hanzi: '买',
       pinyin: 'mǎi',
       english: 'to buy',
@@ -852,7 +852,7 @@ class VocabularyData {
       exampleEnglish: 'I want to buy fruit.',
     ),
     Word(
-      id: '爱',
+      id: '爱', hskLevel: 1,
       hanzi: '爱',
       pinyin: 'ài',
       english: 'to love',
@@ -862,7 +862,7 @@ class VocabularyData {
       exampleEnglish: 'I love you.',
     ),
     Word(
-      id: '喜欢',
+      id: '喜欢', hskLevel: 1,
       hanzi: '喜欢',
       pinyin: 'xǐ huan',
       english: 'to like',
@@ -872,7 +872,7 @@ class VocabularyData {
       exampleEnglish: 'I like Chinese food.',
     ),
     Word(
-      id: '会',
+      id: '会', hskLevel: 1,
       hanzi: '会',
       pinyin: 'huì',
       english: 'can, will (know how to)',
@@ -882,7 +882,7 @@ class VocabularyData {
       exampleEnglish: 'I can speak English.',
     ),
     Word(
-      id: '能',
+      id: '能', hskLevel: 1,
       hanzi: '能',
       pinyin: 'néng',
       english: 'can, be able to',
@@ -892,7 +892,7 @@ class VocabularyData {
       exampleEnglish: 'Can you come tomorrow?',
     ),
     Word(
-      id: '认识',
+      id: '认识', hskLevel: 1,
       hanzi: '认识',
       pinyin: 'rèn shi',
       english: 'to know (a person)',
@@ -902,7 +902,7 @@ class VocabularyData {
       exampleEnglish: 'Nice to meet you.',
     ),
     Word(
-      id: '知道',
+      id: '知道', hskLevel: 1,
       hanzi: '知道',
       pinyin: 'zhī dào',
       english: 'to know (a fact)',
@@ -912,7 +912,7 @@ class VocabularyData {
       exampleEnglish: 'I know this character.',
     ),
     Word(
-      id: '住',
+      id: '住', hskLevel: 1,
       hanzi: '住',
       pinyin: 'zhù',
       english: 'to live, to stay',
@@ -924,7 +924,7 @@ class VocabularyData {
 
     // ── Adjectives ────────────────────────────────────────────────────────
     Word(
-      id: '好',
+      id: '好', hskLevel: 1,
       hanzi: '好',
       pinyin: 'hǎo',
       english: 'good',
@@ -934,7 +934,7 @@ class VocabularyData {
       exampleEnglish: 'You are a good person.',
     ),
     Word(
-      id: '大',
+      id: '大', hskLevel: 1,
       hanzi: '大',
       pinyin: 'dà',
       english: 'big',
@@ -944,7 +944,7 @@ class VocabularyData {
       exampleEnglish: 'Beijing is very big.',
     ),
     Word(
-      id: '小',
+      id: '小', hskLevel: 1,
       hanzi: '小',
       pinyin: 'xiǎo',
       english: 'small',
@@ -954,7 +954,7 @@ class VocabularyData {
       exampleEnglish: 'This cup is very small.',
     ),
     Word(
-      id: '多',
+      id: '多', hskLevel: 1,
       hanzi: '多',
       pinyin: 'duō',
       english: 'many, much',
@@ -964,7 +964,7 @@ class VocabularyData {
       exampleEnglish: 'There are many Chinese people.',
     ),
     Word(
-      id: '少',
+      id: '少', hskLevel: 1,
       hanzi: '少',
       pinyin: 'shǎo',
       english: 'few, little',
@@ -974,7 +974,7 @@ class VocabularyData {
       exampleEnglish: 'I have very little money.',
     ),
     Word(
-      id: '热',
+      id: '热', hskLevel: 1,
       hanzi: '热',
       pinyin: 'rè',
       english: 'hot',
@@ -984,7 +984,7 @@ class VocabularyData {
       exampleEnglish: 'It is hot today.',
     ),
     Word(
-      id: '冷',
+      id: '冷', hskLevel: 1,
       hanzi: '冷',
       pinyin: 'lěng',
       english: 'cold',
@@ -994,7 +994,7 @@ class VocabularyData {
       exampleEnglish: 'Winter is very cold.',
     ),
     Word(
-      id: '高兴',
+      id: '高兴', hskLevel: 1,
       hanzi: '高兴',
       pinyin: 'gāo xìng',
       english: 'happy, glad',
@@ -1004,7 +1004,7 @@ class VocabularyData {
       exampleEnglish: 'I am very happy.',
     ),
     Word(
-      id: '忙',
+      id: '忙', hskLevel: 1,
       hanzi: '忙',
       pinyin: 'máng',
       english: 'busy',
@@ -1014,7 +1014,7 @@ class VocabularyData {
       exampleEnglish: 'I am very busy today.',
     ),
     Word(
-      id: '累',
+      id: '累', hskLevel: 1,
       hanzi: '累',
       pinyin: 'lèi',
       english: 'tired',
@@ -1024,7 +1024,7 @@ class VocabularyData {
       exampleEnglish: 'I am a little tired.',
     ),
     Word(
-      id: '漂亮',
+      id: '漂亮', hskLevel: 1,
       hanzi: '漂亮',
       pinyin: 'piào liang',
       english: 'pretty, beautiful',
@@ -1034,7 +1034,7 @@ class VocabularyData {
       exampleEnglish: 'This city is very beautiful.',
     ),
     Word(
-      id: '贵',
+      id: '贵', hskLevel: 1,
       hanzi: '贵',
       pinyin: 'guì',
       english: 'expensive',
@@ -1044,7 +1044,7 @@ class VocabularyData {
       exampleEnglish: 'This is too expensive.',
     ),
     Word(
-      id: '便宜',
+      id: '便宜', hskLevel: 1,
       hanzi: '便宜',
       pinyin: 'pián yi',
       english: 'cheap',
@@ -1056,7 +1056,7 @@ class VocabularyData {
 
     // ── Places & things ───────────────────────────────────────────────────
     Word(
-      id: '学校',
+      id: '学校', hskLevel: 1,
       hanzi: '学校',
       pinyin: 'xué xiào',
       english: 'school',
@@ -1066,7 +1066,7 @@ class VocabularyData {
       exampleEnglish: 'My school is very big.',
     ),
     Word(
-      id: '商店',
+      id: '商店', hskLevel: 1,
       hanzi: '商店',
       pinyin: 'shāng diàn',
       english: 'shop, store',
@@ -1076,7 +1076,7 @@ class VocabularyData {
       exampleEnglish: 'The shop opens at nine.',
     ),
     Word(
-      id: '医院',
+      id: '医院', hskLevel: 1,
       hanzi: '医院',
       pinyin: 'yī yuàn',
       english: 'hospital',
@@ -1086,7 +1086,7 @@ class VocabularyData {
       exampleEnglish: 'The hospital is over there.',
     ),
     Word(
-      id: '钱',
+      id: '钱', hskLevel: 1,
       hanzi: '钱',
       pinyin: 'qián',
       english: 'money',
@@ -1096,7 +1096,7 @@ class VocabularyData {
       exampleEnglish: 'I have no money.',
     ),
     Word(
-      id: '电话',
+      id: '电话', hskLevel: 1,
       hanzi: '电话',
       pinyin: 'diàn huà',
       english: 'telephone',
@@ -1106,7 +1106,7 @@ class VocabularyData {
       exampleEnglish: 'I\'ll call you.',
     ),
     Word(
-      id: '手机',
+      id: '手机', hskLevel: 1,
       hanzi: '手机',
       pinyin: 'shǒu jī',
       english: 'mobile phone',
@@ -1116,7 +1116,7 @@ class VocabularyData {
       exampleEnglish: 'Where is my phone?',
     ),
     Word(
-      id: '电脑',
+      id: '电脑', hskLevel: 1,
       hanzi: '电脑',
       pinyin: 'diàn nǎo',
       english: 'computer',
@@ -1126,7 +1126,7 @@ class VocabularyData {
       exampleEnglish: 'I work with a computer.',
     ),
     Word(
-      id: '书',
+      id: '书', hskLevel: 1,
       hanzi: '书',
       pinyin: 'shū',
       english: 'book',
@@ -1136,7 +1136,7 @@ class VocabularyData {
       exampleEnglish: 'This book is very good.',
     ),
     Word(
-      id: '汉语',
+      id: '汉语', hskLevel: 1,
       hanzi: '汉语',
       pinyin: 'hàn yǔ',
       english: 'Chinese (language)',
@@ -1146,7 +1146,7 @@ class VocabularyData {
       exampleEnglish: 'I am learning Chinese.',
     ),
     Word(
-      id: '英语',
+      id: '英语', hskLevel: 1,
       hanzi: '英语',
       pinyin: 'yīng yǔ',
       english: 'English (language)',
@@ -1156,7 +1156,7 @@ class VocabularyData {
       exampleEnglish: 'Do you speak English?',
     ),
     Word(
-      id: '名字',
+      id: '名字', hskLevel: 1,
       hanzi: '名字',
       pinyin: 'míng zi',
       english: 'name',
@@ -1166,7 +1166,7 @@ class VocabularyData {
       exampleEnglish: 'What is your name?',
     ),
     Word(
-      id: '东西',
+      id: '东西', hskLevel: 1,
       hanzi: '东西',
       pinyin: 'dōng xi',
       english: 'thing, stuff',
@@ -1176,7 +1176,7 @@ class VocabularyData {
       exampleEnglish: 'I bought a lot of things.',
     ),
     Word(
-      id: '天气',
+      id: '天气', hskLevel: 1,
       hanzi: '天气',
       pinyin: 'tiān qì',
       english: 'weather',
@@ -1186,7 +1186,7 @@ class VocabularyData {
       exampleEnglish: 'The weather is nice today.',
     ),
     Word(
-      id: '车',
+      id: '车', hskLevel: 1,
       hanzi: '车',
       pinyin: 'chē',
       english: 'car, vehicle',
@@ -1198,7 +1198,7 @@ class VocabularyData {
 
     // ── Question words & particles ────────────────────────────────────────
     Word(
-      id: '吗',
+      id: '吗', hskLevel: 1,
       hanzi: '吗',
       pinyin: 'ma',
       english: '(question particle)',
@@ -1208,7 +1208,7 @@ class VocabularyData {
       exampleEnglish: 'How are you?',
     ),
     Word(
-      id: '呢',
+      id: '呢', hskLevel: 1,
       hanzi: '呢',
       pinyin: 'ne',
       english: '(question particle: and you?)',
@@ -1218,7 +1218,7 @@ class VocabularyData {
       exampleEnglish: 'And you?',
     ),
     Word(
-      id: '吧',
+      id: '吧', hskLevel: 1,
       hanzi: '吧',
       pinyin: 'ba',
       english: '(suggestion particle)',
@@ -1228,7 +1228,7 @@ class VocabularyData {
       exampleEnglish: 'Let\'s go.',
     ),
     Word(
-      id: '什么',
+      id: '什么', hskLevel: 1,
       hanzi: '什么',
       pinyin: 'shén me',
       english: 'what',
@@ -1238,7 +1238,7 @@ class VocabularyData {
       exampleEnglish: 'What is this?',
     ),
     Word(
-      id: '谁',
+      id: '谁', hskLevel: 1,
       hanzi: '谁',
       pinyin: 'shéi',
       english: 'who',
@@ -1248,7 +1248,7 @@ class VocabularyData {
       exampleEnglish: 'Who is he?',
     ),
     Word(
-      id: '哪',
+      id: '哪', hskLevel: 1,
       hanzi: '哪',
       pinyin: 'nǎ',
       english: 'which',
@@ -1258,7 +1258,7 @@ class VocabularyData {
       exampleEnglish: 'Which country are you from?',
     ),
     Word(
-      id: '哪里',
+      id: '哪里', hskLevel: 1,
       hanzi: '哪里',
       pinyin: 'nǎ lǐ',
       english: 'where',
@@ -1268,7 +1268,7 @@ class VocabularyData {
       exampleEnglish: 'Where is the toilet?',
     ),
     Word(
-      id: '怎么',
+      id: '怎么', hskLevel: 1,
       hanzi: '怎么',
       pinyin: 'zěn me',
       english: 'how',
@@ -1278,7 +1278,7 @@ class VocabularyData {
       exampleEnglish: 'How do you read this character?',
     ),
     Word(
-      id: '为什么',
+      id: '为什么', hskLevel: 1,
       hanzi: '为什么',
       pinyin: 'wèi shén me',
       english: 'why',
@@ -1288,7 +1288,7 @@ class VocabularyData {
       exampleEnglish: 'Why do you learn Chinese?',
     ),
     Word(
-      id: '多少',
+      id: '多少', hskLevel: 1,
       hanzi: '多少',
       pinyin: 'duō shao',
       english: 'how many, how much',
@@ -1298,7 +1298,7 @@ class VocabularyData {
       exampleEnglish: 'How much is this?',
     ),
     Word(
-      id: '几',
+      id: '几', hskLevel: 1,
       hanzi: '几',
       pinyin: 'jǐ',
       english: 'how many (small number)',
@@ -1310,7 +1310,7 @@ class VocabularyData {
 
     // ── Common words & measure words ──────────────────────────────────────
     Word(
-      id: '这',
+      id: '这', hskLevel: 1,
       hanzi: '这',
       pinyin: 'zhè',
       english: 'this',
@@ -1320,7 +1320,7 @@ class VocabularyData {
       exampleEnglish: 'This is my book.',
     ),
     Word(
-      id: '那',
+      id: '那', hskLevel: 1,
       hanzi: '那',
       pinyin: 'nà',
       english: 'that',
@@ -1330,7 +1330,7 @@ class VocabularyData {
       exampleEnglish: 'Who is that?',
     ),
     Word(
-      id: '和',
+      id: '和', hskLevel: 1,
       hanzi: '和',
       pinyin: 'hé',
       english: 'and',
@@ -1340,7 +1340,7 @@ class VocabularyData {
       exampleEnglish: 'You and me.',
     ),
     Word(
-      id: '很',
+      id: '很', hskLevel: 1,
       hanzi: '很',
       pinyin: 'hěn',
       english: 'very',
@@ -1350,7 +1350,7 @@ class VocabularyData {
       exampleEnglish: 'This book is very good.',
     ),
     Word(
-      id: '不',
+      id: '不', hskLevel: 1,
       hanzi: '不',
       pinyin: 'bù',
       english: 'not, no',
@@ -1360,7 +1360,7 @@ class VocabularyData {
       exampleEnglish: 'I am not a teacher.',
     ),
     Word(
-      id: '都',
+      id: '都', hskLevel: 1,
       hanzi: '都',
       pinyin: 'dōu',
       english: 'all, both',
@@ -1370,7 +1370,7 @@ class VocabularyData {
       exampleEnglish: 'We are all going.',
     ),
     Word(
-      id: '也',
+      id: '也', hskLevel: 1,
       hanzi: '也',
       pinyin: 'yě',
       english: 'also, too',
@@ -1380,7 +1380,7 @@ class VocabularyData {
       exampleEnglish: 'I am also a student.',
     ),
     Word(
-      id: '个',
+      id: '个', hskLevel: 1,
       hanzi: '个',
       pinyin: 'gè',
       english: '(general measure word)',
@@ -1390,7 +1390,7 @@ class VocabularyData {
       exampleEnglish: 'One person.',
     ),
     Word(
-      id: '本',
+      id: '本', hskLevel: 1,
       hanzi: '本',
       pinyin: 'běn',
       english: '(measure word for books)',
@@ -1401,254 +1401,254 @@ class VocabularyData {
     ),
 
     // ── Colours ───────────────────────────────────────────────────────────
-    Word(id: '颜色', hanzi: '颜色', pinyin: 'yán sè', english: 'colour', category: 'Colours', exampleHanzi: '你喜欢什么颜色？', examplePinyin: 'Nǐ xǐhuan shénme yánsè?', exampleEnglish: 'What colour do you like?'),
-    Word(id: '红色', hanzi: '红色', pinyin: 'hóng sè', english: 'red', category: 'Colours', exampleHanzi: '我喜欢红色。', examplePinyin: 'Wǒ xǐhuan hóngsè.', exampleEnglish: 'I like red.'),
-    Word(id: '黄色', hanzi: '黄色', pinyin: 'huáng sè', english: 'yellow', category: 'Colours', exampleHanzi: '香蕉是黄色的。', examplePinyin: 'Xiāngjiāo shì huángsè de.', exampleEnglish: 'Bananas are yellow.'),
-    Word(id: '绿色', hanzi: '绿色', pinyin: 'lǜ sè', english: 'green', category: 'Colours', exampleHanzi: '草是绿色的。', examplePinyin: 'Cǎo shì lǜsè de.', exampleEnglish: 'Grass is green.'),
-    Word(id: '蓝色', hanzi: '蓝色', pinyin: 'lán sè', english: 'blue', category: 'Colours', exampleHanzi: '天空是蓝色的。', examplePinyin: 'Tiānkōng shì lánsè de.', exampleEnglish: 'The sky is blue.'),
-    Word(id: '白色', hanzi: '白色', pinyin: 'bái sè', english: 'white', category: 'Colours', exampleHanzi: '雪是白色的。', examplePinyin: 'Xuě shì báisè de.', exampleEnglish: 'Snow is white.'),
-    Word(id: '黑色', hanzi: '黑色', pinyin: 'hēi sè', english: 'black', category: 'Colours', exampleHanzi: '我的车是黑色的。', examplePinyin: 'Wǒ de chē shì hēisè de.', exampleEnglish: 'My car is black.'),
-    Word(id: '灰色', hanzi: '灰色', pinyin: 'huī sè', english: 'grey', category: 'Colours', exampleHanzi: '灰色的天空。', examplePinyin: 'Huīsè de tiānkōng.', exampleEnglish: 'A grey sky.'),
-    Word(id: '橙色', hanzi: '橙色', pinyin: 'chéng sè', english: 'orange', category: 'Colours', exampleHanzi: '橙子是橙色的。', examplePinyin: 'Chéngzi shì chéngsè de.', exampleEnglish: 'Oranges are orange.'),
-    Word(id: '粉色', hanzi: '粉色', pinyin: 'fěn sè', english: 'pink', category: 'Colours', exampleHanzi: '她喜欢粉色。', examplePinyin: 'Tā xǐhuan fěnsè.', exampleEnglish: 'She likes pink.'),
-    Word(id: '紫色', hanzi: '紫色', pinyin: 'zǐ sè', english: 'purple', category: 'Colours', exampleHanzi: '紫色的花。', examplePinyin: 'Zǐsè de huā.', exampleEnglish: 'A purple flower.'),
+    Word(id: '颜色', hskLevel: 3, hanzi: '颜色', pinyin: 'yán sè', english: 'colour', category: 'Colours', exampleHanzi: '你喜欢什么颜色？', examplePinyin: 'Nǐ xǐhuan shénme yánsè?', exampleEnglish: 'What colour do you like?'),
+    Word(id: '红色', hskLevel: 3, hanzi: '红色', pinyin: 'hóng sè', english: 'red', category: 'Colours', exampleHanzi: '我喜欢红色。', examplePinyin: 'Wǒ xǐhuan hóngsè.', exampleEnglish: 'I like red.'),
+    Word(id: '黄色', hskLevel: 3, hanzi: '黄色', pinyin: 'huáng sè', english: 'yellow', category: 'Colours', exampleHanzi: '香蕉是黄色的。', examplePinyin: 'Xiāngjiāo shì huángsè de.', exampleEnglish: 'Bananas are yellow.'),
+    Word(id: '绿色', hskLevel: 3, hanzi: '绿色', pinyin: 'lǜ sè', english: 'green', category: 'Colours', exampleHanzi: '草是绿色的。', examplePinyin: 'Cǎo shì lǜsè de.', exampleEnglish: 'Grass is green.'),
+    Word(id: '蓝色', hskLevel: 3, hanzi: '蓝色', pinyin: 'lán sè', english: 'blue', category: 'Colours', exampleHanzi: '天空是蓝色的。', examplePinyin: 'Tiānkōng shì lánsè de.', exampleEnglish: 'The sky is blue.'),
+    Word(id: '白色', hskLevel: 3, hanzi: '白色', pinyin: 'bái sè', english: 'white', category: 'Colours', exampleHanzi: '雪是白色的。', examplePinyin: 'Xuě shì báisè de.', exampleEnglish: 'Snow is white.'),
+    Word(id: '黑色', hskLevel: 3, hanzi: '黑色', pinyin: 'hēi sè', english: 'black', category: 'Colours', exampleHanzi: '我的车是黑色的。', examplePinyin: 'Wǒ de chē shì hēisè de.', exampleEnglish: 'My car is black.'),
+    Word(id: '灰色', hskLevel: 3, hanzi: '灰色', pinyin: 'huī sè', english: 'grey', category: 'Colours', exampleHanzi: '灰色的天空。', examplePinyin: 'Huīsè de tiānkōng.', exampleEnglish: 'A grey sky.'),
+    Word(id: '橙色', hskLevel: 3, hanzi: '橙色', pinyin: 'chéng sè', english: 'orange', category: 'Colours', exampleHanzi: '橙子是橙色的。', examplePinyin: 'Chéngzi shì chéngsè de.', exampleEnglish: 'Oranges are orange.'),
+    Word(id: '粉色', hskLevel: 3, hanzi: '粉色', pinyin: 'fěn sè', english: 'pink', category: 'Colours', exampleHanzi: '她喜欢粉色。', examplePinyin: 'Tā xǐhuan fěnsè.', exampleEnglish: 'She likes pink.'),
+    Word(id: '紫色', hskLevel: 3, hanzi: '紫色', pinyin: 'zǐ sè', english: 'purple', category: 'Colours', exampleHanzi: '紫色的花。', examplePinyin: 'Zǐsè de huā.', exampleEnglish: 'A purple flower.'),
 
     // ── Animals ───────────────────────────────────────────────────────────
-    Word(id: '动物', hanzi: '动物', pinyin: 'dòng wù', english: 'animal', category: 'Animals', exampleHanzi: '我喜欢动物。', examplePinyin: 'Wǒ xǐhuan dòngwù.', exampleEnglish: 'I like animals.'),
-    Word(id: '猫', hanzi: '猫', pinyin: 'māo', english: 'cat', category: 'Animals', exampleHanzi: '我有一只猫。', examplePinyin: 'Wǒ yǒu yì zhī māo.', exampleEnglish: 'I have a cat.'),
-    Word(id: '狗', hanzi: '狗', pinyin: 'gǒu', english: 'dog', category: 'Animals', exampleHanzi: '这只狗很可爱。', examplePinyin: "Zhè zhī gǒu hěn kě'ài.", exampleEnglish: 'This dog is cute.'),
-    Word(id: '鸟', hanzi: '鸟', pinyin: 'niǎo', english: 'bird', category: 'Animals', exampleHanzi: '鸟在飞。', examplePinyin: 'Niǎo zài fēi.', exampleEnglish: 'The bird is flying.'),
-    Word(id: '鱼', hanzi: '鱼', pinyin: 'yú', english: 'fish', category: 'Animals', exampleHanzi: '鱼在水里。', examplePinyin: 'Yú zài shuǐ lǐ.', exampleEnglish: 'Fish are in the water.'),
-    Word(id: '马', hanzi: '马', pinyin: 'mǎ', english: 'horse', category: 'Animals', exampleHanzi: '马跑得很快。', examplePinyin: 'Mǎ pǎo de hěn kuài.', exampleEnglish: 'Horses run fast.'),
-    Word(id: '牛', hanzi: '牛', pinyin: 'niú', english: 'cow, ox', category: 'Animals', exampleHanzi: '牛在吃草。', examplePinyin: 'Niú zài chī cǎo.', exampleEnglish: 'The cow is eating grass.'),
-    Word(id: '羊', hanzi: '羊', pinyin: 'yáng', english: 'sheep', category: 'Animals', exampleHanzi: '山上有很多羊。', examplePinyin: 'Shān shang yǒu hěn duō yáng.', exampleEnglish: 'There are many sheep on the mountain.'),
-    Word(id: '鸡', hanzi: '鸡', pinyin: 'jī', english: 'chicken', category: 'Animals', exampleHanzi: '鸡会下蛋。', examplePinyin: 'Jī huì xià dàn.', exampleEnglish: 'Chickens lay eggs.'),
-    Word(id: '猪', hanzi: '猪', pinyin: 'zhū', english: 'pig', category: 'Animals', exampleHanzi: '猪在睡觉。', examplePinyin: 'Zhū zài shuìjiào.', exampleEnglish: 'The pig is sleeping.'),
-    Word(id: '熊猫', hanzi: '熊猫', pinyin: 'xióng māo', english: 'panda', category: 'Animals', exampleHanzi: '熊猫吃竹子。', examplePinyin: 'Xióngmāo chī zhúzi.', exampleEnglish: 'Pandas eat bamboo.'),
-    Word(id: '兔子', hanzi: '兔子', pinyin: 'tù zi', english: 'rabbit', category: 'Animals', exampleHanzi: '兔子很可爱。', examplePinyin: "Tùzi hěn kě'ài.", exampleEnglish: 'Rabbits are cute.'),
-    Word(id: '老虎', hanzi: '老虎', pinyin: 'lǎo hǔ', english: 'tiger', category: 'Animals', exampleHanzi: '老虎很危险。', examplePinyin: 'Lǎohǔ hěn wēixiǎn.', exampleEnglish: 'Tigers are dangerous.'),
-    Word(id: '大象', hanzi: '大象', pinyin: 'dà xiàng', english: 'elephant', category: 'Animals', exampleHanzi: '大象很大。', examplePinyin: 'Dàxiàng hěn dà.', exampleEnglish: 'Elephants are big.'),
-    Word(id: '猴子', hanzi: '猴子', pinyin: 'hóu zi', english: 'monkey', category: 'Animals', exampleHanzi: '猴子会爬树。', examplePinyin: 'Hóuzi huì pá shù.', exampleEnglish: 'Monkeys can climb trees.'),
+    Word(id: '动物', hskLevel: 3, hanzi: '动物', pinyin: 'dòng wù', english: 'animal', category: 'Animals', exampleHanzi: '我喜欢动物。', examplePinyin: 'Wǒ xǐhuan dòngwù.', exampleEnglish: 'I like animals.'),
+    Word(id: '猫', hskLevel: 3, hanzi: '猫', pinyin: 'māo', english: 'cat', category: 'Animals', exampleHanzi: '我有一只猫。', examplePinyin: 'Wǒ yǒu yì zhī māo.', exampleEnglish: 'I have a cat.'),
+    Word(id: '狗', hskLevel: 3, hanzi: '狗', pinyin: 'gǒu', english: 'dog', category: 'Animals', exampleHanzi: '这只狗很可爱。', examplePinyin: "Zhè zhī gǒu hěn kě'ài.", exampleEnglish: 'This dog is cute.'),
+    Word(id: '鸟', hskLevel: 3, hanzi: '鸟', pinyin: 'niǎo', english: 'bird', category: 'Animals', exampleHanzi: '鸟在飞。', examplePinyin: 'Niǎo zài fēi.', exampleEnglish: 'The bird is flying.'),
+    Word(id: '鱼', hskLevel: 3, hanzi: '鱼', pinyin: 'yú', english: 'fish', category: 'Animals', exampleHanzi: '鱼在水里。', examplePinyin: 'Yú zài shuǐ lǐ.', exampleEnglish: 'Fish are in the water.'),
+    Word(id: '马', hskLevel: 3, hanzi: '马', pinyin: 'mǎ', english: 'horse', category: 'Animals', exampleHanzi: '马跑得很快。', examplePinyin: 'Mǎ pǎo de hěn kuài.', exampleEnglish: 'Horses run fast.'),
+    Word(id: '牛', hskLevel: 3, hanzi: '牛', pinyin: 'niú', english: 'cow, ox', category: 'Animals', exampleHanzi: '牛在吃草。', examplePinyin: 'Niú zài chī cǎo.', exampleEnglish: 'The cow is eating grass.'),
+    Word(id: '羊', hskLevel: 3, hanzi: '羊', pinyin: 'yáng', english: 'sheep', category: 'Animals', exampleHanzi: '山上有很多羊。', examplePinyin: 'Shān shang yǒu hěn duō yáng.', exampleEnglish: 'There are many sheep on the mountain.'),
+    Word(id: '鸡', hskLevel: 3, hanzi: '鸡', pinyin: 'jī', english: 'chicken', category: 'Animals', exampleHanzi: '鸡会下蛋。', examplePinyin: 'Jī huì xià dàn.', exampleEnglish: 'Chickens lay eggs.'),
+    Word(id: '猪', hskLevel: 3, hanzi: '猪', pinyin: 'zhū', english: 'pig', category: 'Animals', exampleHanzi: '猪在睡觉。', examplePinyin: 'Zhū zài shuìjiào.', exampleEnglish: 'The pig is sleeping.'),
+    Word(id: '熊猫', hskLevel: 3, hanzi: '熊猫', pinyin: 'xióng māo', english: 'panda', category: 'Animals', exampleHanzi: '熊猫吃竹子。', examplePinyin: 'Xióngmāo chī zhúzi.', exampleEnglish: 'Pandas eat bamboo.'),
+    Word(id: '兔子', hskLevel: 3, hanzi: '兔子', pinyin: 'tù zi', english: 'rabbit', category: 'Animals', exampleHanzi: '兔子很可爱。', examplePinyin: "Tùzi hěn kě'ài.", exampleEnglish: 'Rabbits are cute.'),
+    Word(id: '老虎', hskLevel: 3, hanzi: '老虎', pinyin: 'lǎo hǔ', english: 'tiger', category: 'Animals', exampleHanzi: '老虎很危险。', examplePinyin: 'Lǎohǔ hěn wēixiǎn.', exampleEnglish: 'Tigers are dangerous.'),
+    Word(id: '大象', hskLevel: 3, hanzi: '大象', pinyin: 'dà xiàng', english: 'elephant', category: 'Animals', exampleHanzi: '大象很大。', examplePinyin: 'Dàxiàng hěn dà.', exampleEnglish: 'Elephants are big.'),
+    Word(id: '猴子', hskLevel: 3, hanzi: '猴子', pinyin: 'hóu zi', english: 'monkey', category: 'Animals', exampleHanzi: '猴子会爬树。', examplePinyin: 'Hóuzi huì pá shù.', exampleEnglish: 'Monkeys can climb trees.'),
 
     // ── Body ───────────────────────────────────────────────────────────────
-    Word(id: '身体', hanzi: '身体', pinyin: 'shēn tǐ', english: 'body', category: 'Body', exampleHanzi: '锻炼身体。', examplePinyin: 'Duànliàn shēntǐ.', exampleEnglish: 'Exercise your body.'),
-    Word(id: '头', hanzi: '头', pinyin: 'tóu', english: 'head', category: 'Body', exampleHanzi: '我的头很疼。', examplePinyin: 'Wǒ de tóu hěn téng.', exampleEnglish: 'My head hurts.'),
-    Word(id: '眼睛', hanzi: '眼睛', pinyin: 'yǎn jing', english: 'eye', category: 'Body', exampleHanzi: '她的眼睛很大。', examplePinyin: 'Tā de yǎnjing hěn dà.', exampleEnglish: 'Her eyes are big.'),
-    Word(id: '耳朵', hanzi: '耳朵', pinyin: 'ěr duo', english: 'ear', category: 'Body', exampleHanzi: '大象的耳朵很大。', examplePinyin: 'Dàxiàng de ěrduo hěn dà.', exampleEnglish: "An elephant's ears are big."),
-    Word(id: '鼻子', hanzi: '鼻子', pinyin: 'bí zi', english: 'nose', category: 'Body', exampleHanzi: '我的鼻子不舒服。', examplePinyin: 'Wǒ de bízi bù shūfu.', exampleEnglish: 'My nose is uncomfortable.'),
-    Word(id: '嘴巴', hanzi: '嘴巴', pinyin: 'zuǐ ba', english: 'mouth', category: 'Body', exampleHanzi: '张开嘴巴。', examplePinyin: 'Zhāngkāi zuǐba.', exampleEnglish: 'Open your mouth.'),
-    Word(id: '手', hanzi: '手', pinyin: 'shǒu', english: 'hand', category: 'Body', exampleHanzi: '洗手。', examplePinyin: 'Xǐ shǒu.', exampleEnglish: 'Wash your hands.'),
-    Word(id: '脚', hanzi: '脚', pinyin: 'jiǎo', english: 'foot', category: 'Body', exampleHanzi: '我的脚很累。', examplePinyin: 'Wǒ de jiǎo hěn lèi.', exampleEnglish: 'My feet are tired.'),
-    Word(id: '腿', hanzi: '腿', pinyin: 'tuǐ', english: 'leg', category: 'Body', exampleHanzi: '他的腿很长。', examplePinyin: 'Tā de tuǐ hěn cháng.', exampleEnglish: 'His legs are long.'),
-    Word(id: '脸', hanzi: '脸', pinyin: 'liǎn', english: 'face', category: 'Body', exampleHanzi: '洗脸。', examplePinyin: 'Xǐ liǎn.', exampleEnglish: 'Wash your face.'),
-    Word(id: '心', hanzi: '心', pinyin: 'xīn', english: 'heart', category: 'Body', exampleHanzi: '我的心跳得很快。', examplePinyin: 'Wǒ de xīn tiào de hěn kuài.', exampleEnglish: 'My heart beats fast.'),
+    Word(id: '身体', hskLevel: 3, hanzi: '身体', pinyin: 'shēn tǐ', english: 'body', category: 'Body', exampleHanzi: '锻炼身体。', examplePinyin: 'Duànliàn shēntǐ.', exampleEnglish: 'Exercise your body.'),
+    Word(id: '头', hskLevel: 3, hanzi: '头', pinyin: 'tóu', english: 'head', category: 'Body', exampleHanzi: '我的头很疼。', examplePinyin: 'Wǒ de tóu hěn téng.', exampleEnglish: 'My head hurts.'),
+    Word(id: '眼睛', hskLevel: 3, hanzi: '眼睛', pinyin: 'yǎn jing', english: 'eye', category: 'Body', exampleHanzi: '她的眼睛很大。', examplePinyin: 'Tā de yǎnjing hěn dà.', exampleEnglish: 'Her eyes are big.'),
+    Word(id: '耳朵', hskLevel: 3, hanzi: '耳朵', pinyin: 'ěr duo', english: 'ear', category: 'Body', exampleHanzi: '大象的耳朵很大。', examplePinyin: 'Dàxiàng de ěrduo hěn dà.', exampleEnglish: "An elephant's ears are big."),
+    Word(id: '鼻子', hskLevel: 3, hanzi: '鼻子', pinyin: 'bí zi', english: 'nose', category: 'Body', exampleHanzi: '我的鼻子不舒服。', examplePinyin: 'Wǒ de bízi bù shūfu.', exampleEnglish: 'My nose is uncomfortable.'),
+    Word(id: '嘴巴', hskLevel: 3, hanzi: '嘴巴', pinyin: 'zuǐ ba', english: 'mouth', category: 'Body', exampleHanzi: '张开嘴巴。', examplePinyin: 'Zhāngkāi zuǐba.', exampleEnglish: 'Open your mouth.'),
+    Word(id: '手', hskLevel: 3, hanzi: '手', pinyin: 'shǒu', english: 'hand', category: 'Body', exampleHanzi: '洗手。', examplePinyin: 'Xǐ shǒu.', exampleEnglish: 'Wash your hands.'),
+    Word(id: '脚', hskLevel: 3, hanzi: '脚', pinyin: 'jiǎo', english: 'foot', category: 'Body', exampleHanzi: '我的脚很累。', examplePinyin: 'Wǒ de jiǎo hěn lèi.', exampleEnglish: 'My feet are tired.'),
+    Word(id: '腿', hskLevel: 3, hanzi: '腿', pinyin: 'tuǐ', english: 'leg', category: 'Body', exampleHanzi: '他的腿很长。', examplePinyin: 'Tā de tuǐ hěn cháng.', exampleEnglish: 'His legs are long.'),
+    Word(id: '脸', hskLevel: 3, hanzi: '脸', pinyin: 'liǎn', english: 'face', category: 'Body', exampleHanzi: '洗脸。', examplePinyin: 'Xǐ liǎn.', exampleEnglish: 'Wash your face.'),
+    Word(id: '心', hskLevel: 3, hanzi: '心', pinyin: 'xīn', english: 'heart', category: 'Body', exampleHanzi: '我的心跳得很快。', examplePinyin: 'Wǒ de xīn tiào de hěn kuài.', exampleEnglish: 'My heart beats fast.'),
 
     // ── Clothes ────────────────────────────────────────────────────────────
-    Word(id: '衣服', hanzi: '衣服', pinyin: 'yī fu', english: 'clothes', category: 'Clothes', exampleHanzi: '这件衣服很漂亮。', examplePinyin: 'Zhè jiàn yīfu hěn piàoliang.', exampleEnglish: 'This piece of clothing is pretty.'),
-    Word(id: '裤子', hanzi: '裤子', pinyin: 'kù zi', english: 'pants', category: 'Clothes', exampleHanzi: '我买了一条裤子。', examplePinyin: 'Wǒ mǎi le yì tiáo kùzi.', exampleEnglish: 'I bought a pair of pants.'),
-    Word(id: '裙子', hanzi: '裙子', pinyin: 'qún zi', english: 'skirt', category: 'Clothes', exampleHanzi: '她穿着裙子。', examplePinyin: 'Tā chuān zhe qúnzi.', exampleEnglish: 'She is wearing a skirt.'),
-    Word(id: '鞋子', hanzi: '鞋子', pinyin: 'xié zi', english: 'shoes', category: 'Clothes', exampleHanzi: '我的鞋子是新的。', examplePinyin: 'Wǒ de xiézi shì xīn de.', exampleEnglish: 'My shoes are new.'),
-    Word(id: '帽子', hanzi: '帽子', pinyin: 'mào zi', english: 'hat', category: 'Clothes', exampleHanzi: '他戴着帽子。', examplePinyin: 'Tā dài zhe màozi.', exampleEnglish: 'He is wearing a hat.'),
-    Word(id: '袜子', hanzi: '袜子', pinyin: 'wà zi', english: 'socks', category: 'Clothes', exampleHanzi: '我穿白色的袜子。', examplePinyin: 'Wǒ chuān báisè de wàzi.', exampleEnglish: 'I wear white socks.'),
-    Word(id: '衬衫', hanzi: '衬衫', pinyin: 'chèn shān', english: 'shirt', category: 'Clothes', exampleHanzi: '这件衬衫很贵。', examplePinyin: 'Zhè jiàn chènshān hěn guì.', exampleEnglish: 'This shirt is expensive.'),
-    Word(id: '外套', hanzi: '外套', pinyin: 'wài tào', english: 'coat, jacket', category: 'Clothes', exampleHanzi: '天冷了，穿外套。', examplePinyin: 'Tiān lěng le, chuān wàitào.', exampleEnglish: "It's cold, wear a coat."),
+    Word(id: '衣服', hskLevel: 3, hanzi: '衣服', pinyin: 'yī fu', english: 'clothes', category: 'Clothes', exampleHanzi: '这件衣服很漂亮。', examplePinyin: 'Zhè jiàn yīfu hěn piàoliang.', exampleEnglish: 'This piece of clothing is pretty.'),
+    Word(id: '裤子', hskLevel: 3, hanzi: '裤子', pinyin: 'kù zi', english: 'pants', category: 'Clothes', exampleHanzi: '我买了一条裤子。', examplePinyin: 'Wǒ mǎi le yì tiáo kùzi.', exampleEnglish: 'I bought a pair of pants.'),
+    Word(id: '裙子', hskLevel: 3, hanzi: '裙子', pinyin: 'qún zi', english: 'skirt', category: 'Clothes', exampleHanzi: '她穿着裙子。', examplePinyin: 'Tā chuān zhe qúnzi.', exampleEnglish: 'She is wearing a skirt.'),
+    Word(id: '鞋子', hskLevel: 3, hanzi: '鞋子', pinyin: 'xié zi', english: 'shoes', category: 'Clothes', exampleHanzi: '我的鞋子是新的。', examplePinyin: 'Wǒ de xiézi shì xīn de.', exampleEnglish: 'My shoes are new.'),
+    Word(id: '帽子', hskLevel: 3, hanzi: '帽子', pinyin: 'mào zi', english: 'hat', category: 'Clothes', exampleHanzi: '他戴着帽子。', examplePinyin: 'Tā dài zhe màozi.', exampleEnglish: 'He is wearing a hat.'),
+    Word(id: '袜子', hskLevel: 3, hanzi: '袜子', pinyin: 'wà zi', english: 'socks', category: 'Clothes', exampleHanzi: '我穿白色的袜子。', examplePinyin: 'Wǒ chuān báisè de wàzi.', exampleEnglish: 'I wear white socks.'),
+    Word(id: '衬衫', hskLevel: 3, hanzi: '衬衫', pinyin: 'chèn shān', english: 'shirt', category: 'Clothes', exampleHanzi: '这件衬衫很贵。', examplePinyin: 'Zhè jiàn chènshān hěn guì.', exampleEnglish: 'This shirt is expensive.'),
+    Word(id: '外套', hskLevel: 3, hanzi: '外套', pinyin: 'wài tào', english: 'coat, jacket', category: 'Clothes', exampleHanzi: '天冷了，穿外套。', examplePinyin: 'Tiān lěng le, chuān wàitào.', exampleEnglish: "It's cold, wear a coat."),
 
     // ── Transport ──────────────────────────────────────────────────────────
-    Word(id: '交通', hanzi: '交通', pinyin: 'jiāo tōng', english: 'traffic, transport', category: 'Transport', exampleHanzi: '北京的交通很忙。', examplePinyin: 'Běijīng de jiāotōng hěn máng.', exampleEnglish: "Beijing's traffic is busy."),
-    Word(id: '火车', hanzi: '火车', pinyin: 'huǒ chē', english: 'train', category: 'Transport', exampleHanzi: '我坐火车去上海。', examplePinyin: 'Wǒ zuò huǒchē qù Shànghǎi.', exampleEnglish: 'I take the train to Shanghai.'),
-    Word(id: '飞机', hanzi: '飞机', pinyin: 'fēi jī', english: 'airplane', category: 'Transport', exampleHanzi: '飞机很快。', examplePinyin: 'Fēijī hěn kuài.', exampleEnglish: 'Planes are fast.'),
-    Word(id: '公共汽车', hanzi: '公共汽车', pinyin: 'gōng gòng qì chē', english: 'bus', category: 'Transport', exampleHanzi: '我坐公共汽车上学。', examplePinyin: 'Wǒ zuò gōnggòng qìchē shàngxué.', exampleEnglish: 'I take the bus to school.'),
-    Word(id: '地铁', hanzi: '地铁', pinyin: 'dì tiě', english: 'subway, metro', category: 'Transport', exampleHanzi: '地铁很方便。', examplePinyin: 'Dìtiě hěn fāngbiàn.', exampleEnglish: 'The subway is convenient.'),
-    Word(id: '自行车', hanzi: '自行车', pinyin: 'zì xíng chē', english: 'bicycle', category: 'Transport', exampleHanzi: '我骑自行车。', examplePinyin: 'Wǒ qí zìxíngchē.', exampleEnglish: 'I ride a bicycle.'),
-    Word(id: '出租车', hanzi: '出租车', pinyin: 'chū zū chē', english: 'taxi', category: 'Transport', exampleHanzi: '我们坐出租车。', examplePinyin: 'Wǒmen zuò chūzūchē.', exampleEnglish: 'We take a taxi.'),
-    Word(id: '船', hanzi: '船', pinyin: 'chuán', english: 'boat, ship', category: 'Transport', exampleHanzi: '船在海上。', examplePinyin: 'Chuán zài hǎi shang.', exampleEnglish: 'The boat is on the sea.'),
-    Word(id: '路', hanzi: '路', pinyin: 'lù', english: 'road, way', category: 'Transport', exampleHanzi: '这条路很长。', examplePinyin: 'Zhè tiáo lù hěn cháng.', exampleEnglish: 'This road is long.'),
+    Word(id: '交通', hskLevel: 3, hanzi: '交通', pinyin: 'jiāo tōng', english: 'traffic, transport', category: 'Transport', exampleHanzi: '北京的交通很忙。', examplePinyin: 'Běijīng de jiāotōng hěn máng.', exampleEnglish: "Beijing's traffic is busy."),
+    Word(id: '火车', hskLevel: 3, hanzi: '火车', pinyin: 'huǒ chē', english: 'train', category: 'Transport', exampleHanzi: '我坐火车去上海。', examplePinyin: 'Wǒ zuò huǒchē qù Shànghǎi.', exampleEnglish: 'I take the train to Shanghai.'),
+    Word(id: '飞机', hskLevel: 3, hanzi: '飞机', pinyin: 'fēi jī', english: 'airplane', category: 'Transport', exampleHanzi: '飞机很快。', examplePinyin: 'Fēijī hěn kuài.', exampleEnglish: 'Planes are fast.'),
+    Word(id: '公共汽车', hskLevel: 3, hanzi: '公共汽车', pinyin: 'gōng gòng qì chē', english: 'bus', category: 'Transport', exampleHanzi: '我坐公共汽车上学。', examplePinyin: 'Wǒ zuò gōnggòng qìchē shàngxué.', exampleEnglish: 'I take the bus to school.'),
+    Word(id: '地铁', hskLevel: 3, hanzi: '地铁', pinyin: 'dì tiě', english: 'subway, metro', category: 'Transport', exampleHanzi: '地铁很方便。', examplePinyin: 'Dìtiě hěn fāngbiàn.', exampleEnglish: 'The subway is convenient.'),
+    Word(id: '自行车', hskLevel: 3, hanzi: '自行车', pinyin: 'zì xíng chē', english: 'bicycle', category: 'Transport', exampleHanzi: '我骑自行车。', examplePinyin: 'Wǒ qí zìxíngchē.', exampleEnglish: 'I ride a bicycle.'),
+    Word(id: '出租车', hskLevel: 3, hanzi: '出租车', pinyin: 'chū zū chē', english: 'taxi', category: 'Transport', exampleHanzi: '我们坐出租车。', examplePinyin: 'Wǒmen zuò chūzūchē.', exampleEnglish: 'We take a taxi.'),
+    Word(id: '船', hskLevel: 3, hanzi: '船', pinyin: 'chuán', english: 'boat, ship', category: 'Transport', exampleHanzi: '船在海上。', examplePinyin: 'Chuán zài hǎi shang.', exampleEnglish: 'The boat is on the sea.'),
+    Word(id: '路', hskLevel: 3, hanzi: '路', pinyin: 'lù', english: 'road, way', category: 'Transport', exampleHanzi: '这条路很长。', examplePinyin: 'Zhè tiáo lù hěn cháng.', exampleEnglish: 'This road is long.'),
 
     // ── Nature ─────────────────────────────────────────────────────────────
-    Word(id: '雨', hanzi: '雨', pinyin: 'yǔ', english: 'rain', category: 'Nature', exampleHanzi: '今天下雨。', examplePinyin: 'Jīntiān xià yǔ.', exampleEnglish: "It's raining today."),
-    Word(id: '雪', hanzi: '雪', pinyin: 'xuě', english: 'snow', category: 'Nature', exampleHanzi: '冬天常常下雪。', examplePinyin: 'Dōngtiān chángcháng xià xuě.', exampleEnglish: 'It often snows in winter.'),
-    Word(id: '风', hanzi: '风', pinyin: 'fēng', english: 'wind', category: 'Nature', exampleHanzi: '今天的风很大。', examplePinyin: 'Jīntiān de fēng hěn dà.', exampleEnglish: 'The wind is strong today.'),
-    Word(id: '太阳', hanzi: '太阳', pinyin: 'tài yáng', english: 'sun', category: 'Nature', exampleHanzi: '太阳出来了。', examplePinyin: 'Tàiyáng chūlái le.', exampleEnglish: 'The sun is out.'),
-    Word(id: '月亮', hanzi: '月亮', pinyin: 'yuè liang', english: 'moon', category: 'Nature', exampleHanzi: '月亮很圆。', examplePinyin: 'Yuèliang hěn yuán.', exampleEnglish: 'The moon is round.'),
-    Word(id: '星星', hanzi: '星星', pinyin: 'xīng xing', english: 'star', category: 'Nature', exampleHanzi: '天上的星星很多。', examplePinyin: 'Tiān shang de xīngxing hěn duō.', exampleEnglish: 'There are many stars in the sky.'),
-    Word(id: '云', hanzi: '云', pinyin: 'yún', english: 'cloud', category: 'Nature', exampleHanzi: '白云在天上。', examplePinyin: 'Báiyún zài tiān shang.', exampleEnglish: 'White clouds are in the sky.'),
-    Word(id: '山', hanzi: '山', pinyin: 'shān', english: 'mountain', category: 'Nature', exampleHanzi: '这座山很高。', examplePinyin: 'Zhè zuò shān hěn gāo.', exampleEnglish: 'This mountain is tall.'),
-    Word(id: '河', hanzi: '河', pinyin: 'hé', english: 'river', category: 'Nature', exampleHanzi: '河里有鱼。', examplePinyin: 'Hé lǐ yǒu yú.', exampleEnglish: 'There are fish in the river.'),
-    Word(id: '海', hanzi: '海', pinyin: 'hǎi', english: 'sea', category: 'Nature', exampleHanzi: '我想去看海。', examplePinyin: 'Wǒ xiǎng qù kàn hǎi.', exampleEnglish: 'I want to see the sea.'),
-    Word(id: '树', hanzi: '树', pinyin: 'shù', english: 'tree', category: 'Nature', exampleHanzi: '这棵树很大。', examplePinyin: 'Zhè kē shù hěn dà.', exampleEnglish: 'This tree is big.'),
-    Word(id: '花', hanzi: '花', pinyin: 'huā', english: 'flower', category: 'Nature', exampleHanzi: '花很漂亮。', examplePinyin: 'Huā hěn piàoliang.', exampleEnglish: 'The flowers are pretty.'),
-    Word(id: '草', hanzi: '草', pinyin: 'cǎo', english: 'grass', category: 'Nature', exampleHanzi: '草是绿色的。', examplePinyin: 'Cǎo shì lǜsè de.', exampleEnglish: 'Grass is green.'),
-    Word(id: '春天', hanzi: '春天', pinyin: 'chūn tiān', english: 'spring', category: 'Nature', exampleHanzi: '春天很暖和。', examplePinyin: 'Chūntiān hěn nuǎnhuo.', exampleEnglish: 'Spring is warm.'),
-    Word(id: '夏天', hanzi: '夏天', pinyin: 'xià tiān', english: 'summer', category: 'Nature', exampleHanzi: '夏天很热。', examplePinyin: 'Xiàtiān hěn rè.', exampleEnglish: 'Summer is hot.'),
-    Word(id: '秋天', hanzi: '秋天', pinyin: 'qiū tiān', english: 'autumn', category: 'Nature', exampleHanzi: '秋天很凉快。', examplePinyin: 'Qiūtiān hěn liángkuai.', exampleEnglish: 'Autumn is cool.'),
-    Word(id: '冬天', hanzi: '冬天', pinyin: 'dōng tiān', english: 'winter', category: 'Nature', exampleHanzi: '冬天很冷。', examplePinyin: 'Dōngtiān hěn lěng.', exampleEnglish: 'Winter is cold.'),
-    Word(id: '空气', hanzi: '空气', pinyin: 'kōng qì', english: 'air', category: 'Nature', exampleHanzi: '山上的空气很好。', examplePinyin: 'Shān shang de kōngqì hěn hǎo.', exampleEnglish: 'The air on the mountain is good.'),
+    Word(id: '雨', hskLevel: 3, hanzi: '雨', pinyin: 'yǔ', english: 'rain', category: 'Nature', exampleHanzi: '今天下雨。', examplePinyin: 'Jīntiān xià yǔ.', exampleEnglish: "It's raining today."),
+    Word(id: '雪', hskLevel: 3, hanzi: '雪', pinyin: 'xuě', english: 'snow', category: 'Nature', exampleHanzi: '冬天常常下雪。', examplePinyin: 'Dōngtiān chángcháng xià xuě.', exampleEnglish: 'It often snows in winter.'),
+    Word(id: '风', hskLevel: 3, hanzi: '风', pinyin: 'fēng', english: 'wind', category: 'Nature', exampleHanzi: '今天的风很大。', examplePinyin: 'Jīntiān de fēng hěn dà.', exampleEnglish: 'The wind is strong today.'),
+    Word(id: '太阳', hskLevel: 3, hanzi: '太阳', pinyin: 'tài yáng', english: 'sun', category: 'Nature', exampleHanzi: '太阳出来了。', examplePinyin: 'Tàiyáng chūlái le.', exampleEnglish: 'The sun is out.'),
+    Word(id: '月亮', hskLevel: 3, hanzi: '月亮', pinyin: 'yuè liang', english: 'moon', category: 'Nature', exampleHanzi: '月亮很圆。', examplePinyin: 'Yuèliang hěn yuán.', exampleEnglish: 'The moon is round.'),
+    Word(id: '星星', hskLevel: 3, hanzi: '星星', pinyin: 'xīng xing', english: 'star', category: 'Nature', exampleHanzi: '天上的星星很多。', examplePinyin: 'Tiān shang de xīngxing hěn duō.', exampleEnglish: 'There are many stars in the sky.'),
+    Word(id: '云', hskLevel: 3, hanzi: '云', pinyin: 'yún', english: 'cloud', category: 'Nature', exampleHanzi: '白云在天上。', examplePinyin: 'Báiyún zài tiān shang.', exampleEnglish: 'White clouds are in the sky.'),
+    Word(id: '山', hskLevel: 3, hanzi: '山', pinyin: 'shān', english: 'mountain', category: 'Nature', exampleHanzi: '这座山很高。', examplePinyin: 'Zhè zuò shān hěn gāo.', exampleEnglish: 'This mountain is tall.'),
+    Word(id: '河', hskLevel: 3, hanzi: '河', pinyin: 'hé', english: 'river', category: 'Nature', exampleHanzi: '河里有鱼。', examplePinyin: 'Hé lǐ yǒu yú.', exampleEnglish: 'There are fish in the river.'),
+    Word(id: '海', hskLevel: 3, hanzi: '海', pinyin: 'hǎi', english: 'sea', category: 'Nature', exampleHanzi: '我想去看海。', examplePinyin: 'Wǒ xiǎng qù kàn hǎi.', exampleEnglish: 'I want to see the sea.'),
+    Word(id: '树', hskLevel: 3, hanzi: '树', pinyin: 'shù', english: 'tree', category: 'Nature', exampleHanzi: '这棵树很大。', examplePinyin: 'Zhè kē shù hěn dà.', exampleEnglish: 'This tree is big.'),
+    Word(id: '花', hskLevel: 3, hanzi: '花', pinyin: 'huā', english: 'flower', category: 'Nature', exampleHanzi: '花很漂亮。', examplePinyin: 'Huā hěn piàoliang.', exampleEnglish: 'The flowers are pretty.'),
+    Word(id: '草', hskLevel: 3, hanzi: '草', pinyin: 'cǎo', english: 'grass', category: 'Nature', exampleHanzi: '草是绿色的。', examplePinyin: 'Cǎo shì lǜsè de.', exampleEnglish: 'Grass is green.'),
+    Word(id: '春天', hskLevel: 3, hanzi: '春天', pinyin: 'chūn tiān', english: 'spring', category: 'Nature', exampleHanzi: '春天很暖和。', examplePinyin: 'Chūntiān hěn nuǎnhuo.', exampleEnglish: 'Spring is warm.'),
+    Word(id: '夏天', hskLevel: 3, hanzi: '夏天', pinyin: 'xià tiān', english: 'summer', category: 'Nature', exampleHanzi: '夏天很热。', examplePinyin: 'Xiàtiān hěn rè.', exampleEnglish: 'Summer is hot.'),
+    Word(id: '秋天', hskLevel: 3, hanzi: '秋天', pinyin: 'qiū tiān', english: 'autumn', category: 'Nature', exampleHanzi: '秋天很凉快。', examplePinyin: 'Qiūtiān hěn liángkuai.', exampleEnglish: 'Autumn is cool.'),
+    Word(id: '冬天', hskLevel: 3, hanzi: '冬天', pinyin: 'dōng tiān', english: 'winter', category: 'Nature', exampleHanzi: '冬天很冷。', examplePinyin: 'Dōngtiān hěn lěng.', exampleEnglish: 'Winter is cold.'),
+    Word(id: '空气', hskLevel: 3, hanzi: '空气', pinyin: 'kōng qì', english: 'air', category: 'Nature', exampleHanzi: '山上的空气很好。', examplePinyin: 'Shān shang de kōngqì hěn hǎo.', exampleEnglish: 'The air on the mountain is good.'),
 
     // ── Study & work ───────────────────────────────────────────────────────
-    Word(id: '学习', hanzi: '学习', pinyin: 'xué xí', english: 'to study', category: 'Study & Work', exampleHanzi: '我每天学习汉语。', examplePinyin: 'Wǒ měi tiān xuéxí Hànyǔ.', exampleEnglish: 'I study Chinese every day.'),
-    Word(id: '上课', hanzi: '上课', pinyin: 'shàng kè', english: 'to attend class', category: 'Study & Work', exampleHanzi: '我们九点上课。', examplePinyin: 'Wǒmen jiǔ diǎn shàngkè.', exampleEnglish: 'We have class at nine.'),
-    Word(id: '下课', hanzi: '下课', pinyin: 'xià kè', english: 'to finish class', category: 'Study & Work', exampleHanzi: '十二点下课。', examplePinyin: "Shí'èr diǎn xiàkè.", exampleEnglish: 'Class ends at twelve.'),
-    Word(id: '考试', hanzi: '考试', pinyin: 'kǎo shì', english: 'exam', category: 'Study & Work', exampleHanzi: '明天有考试。', examplePinyin: 'Míngtiān yǒu kǎoshì.', exampleEnglish: "There's an exam tomorrow."),
-    Word(id: '作业', hanzi: '作业', pinyin: 'zuò yè', english: 'homework', category: 'Study & Work', exampleHanzi: '我有很多作业。', examplePinyin: 'Wǒ yǒu hěn duō zuòyè.', exampleEnglish: 'I have a lot of homework.'),
-    Word(id: '课', hanzi: '课', pinyin: 'kè', english: 'lesson, class', category: 'Study & Work', exampleHanzi: '今天的课很有意思。', examplePinyin: 'Jīntiān de kè hěn yǒu yìsi.', exampleEnglish: "Today's lesson is interesting."),
-    Word(id: '问题', hanzi: '问题', pinyin: 'wèn tí', english: 'question, problem', category: 'Study & Work', exampleHanzi: '我有一个问题。', examplePinyin: 'Wǒ yǒu yí gè wèntí.', exampleEnglish: 'I have a question.'),
-    Word(id: '答案', hanzi: '答案', pinyin: 'dá àn', english: 'answer', category: 'Study & Work', exampleHanzi: '这个答案不对。', examplePinyin: "Zhège dá'àn bú duì.", exampleEnglish: 'This answer is wrong.'),
-    Word(id: '工作', hanzi: '工作', pinyin: 'gōng zuò', english: 'job, to work', category: 'Study & Work', exampleHanzi: '我爸爸工作很忙。', examplePinyin: 'Wǒ bàba gōngzuò hěn máng.', exampleEnglish: 'My dad is busy with work.'),
-    Word(id: '办公室', hanzi: '办公室', pinyin: 'bàn gōng shì', english: 'office', category: 'Study & Work', exampleHanzi: '老师在办公室。', examplePinyin: 'Lǎoshī zài bàngōngshì.', exampleEnglish: 'The teacher is in the office.'),
-    Word(id: '公司', hanzi: '公司', pinyin: 'gōng sī', english: 'company', category: 'Study & Work', exampleHanzi: '我在一家公司工作。', examplePinyin: 'Wǒ zài yì jiā gōngsī gōngzuò.', exampleEnglish: 'I work at a company.'),
-    Word(id: '老板', hanzi: '老板', pinyin: 'lǎo bǎn', english: 'boss', category: 'Study & Work', exampleHanzi: '老板今天不在。', examplePinyin: 'Lǎobǎn jīntiān bú zài.', exampleEnglish: 'The boss is not in today.'),
-    Word(id: '同事', hanzi: '同事', pinyin: 'tóng shì', english: 'colleague', category: 'Study & Work', exampleHanzi: '他是我的同事。', examplePinyin: 'Tā shì wǒ de tóngshì.', exampleEnglish: 'He is my colleague.'),
-    Word(id: '笔', hanzi: '笔', pinyin: 'bǐ', english: 'pen', category: 'Study & Work', exampleHanzi: '我有一支笔。', examplePinyin: 'Wǒ yǒu yì zhī bǐ.', exampleEnglish: 'I have a pen.'),
-    Word(id: '纸', hanzi: '纸', pinyin: 'zhǐ', english: 'paper', category: 'Study & Work', exampleHanzi: '请给我一张纸。', examplePinyin: 'Qǐng gěi wǒ yì zhāng zhǐ.', exampleEnglish: 'Please give me a piece of paper.'),
+    Word(id: '学习', hskLevel: 3, hanzi: '学习', pinyin: 'xué xí', english: 'to study', category: 'Study & Work', exampleHanzi: '我每天学习汉语。', examplePinyin: 'Wǒ měi tiān xuéxí Hànyǔ.', exampleEnglish: 'I study Chinese every day.'),
+    Word(id: '上课', hskLevel: 3, hanzi: '上课', pinyin: 'shàng kè', english: 'to attend class', category: 'Study & Work', exampleHanzi: '我们九点上课。', examplePinyin: 'Wǒmen jiǔ diǎn shàngkè.', exampleEnglish: 'We have class at nine.'),
+    Word(id: '下课', hskLevel: 3, hanzi: '下课', pinyin: 'xià kè', english: 'to finish class', category: 'Study & Work', exampleHanzi: '十二点下课。', examplePinyin: "Shí'èr diǎn xiàkè.", exampleEnglish: 'Class ends at twelve.'),
+    Word(id: '考试', hskLevel: 3, hanzi: '考试', pinyin: 'kǎo shì', english: 'exam', category: 'Study & Work', exampleHanzi: '明天有考试。', examplePinyin: 'Míngtiān yǒu kǎoshì.', exampleEnglish: "There's an exam tomorrow."),
+    Word(id: '作业', hskLevel: 3, hanzi: '作业', pinyin: 'zuò yè', english: 'homework', category: 'Study & Work', exampleHanzi: '我有很多作业。', examplePinyin: 'Wǒ yǒu hěn duō zuòyè.', exampleEnglish: 'I have a lot of homework.'),
+    Word(id: '课', hskLevel: 3, hanzi: '课', pinyin: 'kè', english: 'lesson, class', category: 'Study & Work', exampleHanzi: '今天的课很有意思。', examplePinyin: 'Jīntiān de kè hěn yǒu yìsi.', exampleEnglish: "Today's lesson is interesting."),
+    Word(id: '问题', hskLevel: 3, hanzi: '问题', pinyin: 'wèn tí', english: 'question, problem', category: 'Study & Work', exampleHanzi: '我有一个问题。', examplePinyin: 'Wǒ yǒu yí gè wèntí.', exampleEnglish: 'I have a question.'),
+    Word(id: '答案', hskLevel: 3, hanzi: '答案', pinyin: 'dá àn', english: 'answer', category: 'Study & Work', exampleHanzi: '这个答案不对。', examplePinyin: "Zhège dá'àn bú duì.", exampleEnglish: 'This answer is wrong.'),
+    Word(id: '工作', hskLevel: 3, hanzi: '工作', pinyin: 'gōng zuò', english: 'job, to work', category: 'Study & Work', exampleHanzi: '我爸爸工作很忙。', examplePinyin: 'Wǒ bàba gōngzuò hěn máng.', exampleEnglish: 'My dad is busy with work.'),
+    Word(id: '办公室', hskLevel: 3, hanzi: '办公室', pinyin: 'bàn gōng shì', english: 'office', category: 'Study & Work', exampleHanzi: '老师在办公室。', examplePinyin: 'Lǎoshī zài bàngōngshì.', exampleEnglish: 'The teacher is in the office.'),
+    Word(id: '公司', hskLevel: 3, hanzi: '公司', pinyin: 'gōng sī', english: 'company', category: 'Study & Work', exampleHanzi: '我在一家公司工作。', examplePinyin: 'Wǒ zài yì jiā gōngsī gōngzuò.', exampleEnglish: 'I work at a company.'),
+    Word(id: '老板', hskLevel: 3, hanzi: '老板', pinyin: 'lǎo bǎn', english: 'boss', category: 'Study & Work', exampleHanzi: '老板今天不在。', examplePinyin: 'Lǎobǎn jīntiān bú zài.', exampleEnglish: 'The boss is not in today.'),
+    Word(id: '同事', hskLevel: 3, hanzi: '同事', pinyin: 'tóng shì', english: 'colleague', category: 'Study & Work', exampleHanzi: '他是我的同事。', examplePinyin: 'Tā shì wǒ de tóngshì.', exampleEnglish: 'He is my colleague.'),
+    Word(id: '笔', hskLevel: 3, hanzi: '笔', pinyin: 'bǐ', english: 'pen', category: 'Study & Work', exampleHanzi: '我有一支笔。', examplePinyin: 'Wǒ yǒu yì zhī bǐ.', exampleEnglish: 'I have a pen.'),
+    Word(id: '纸', hskLevel: 3, hanzi: '纸', pinyin: 'zhǐ', english: 'paper', category: 'Study & Work', exampleHanzi: '请给我一张纸。', examplePinyin: 'Qǐng gěi wǒ yì zhāng zhǐ.', exampleEnglish: 'Please give me a piece of paper.'),
 
     // ── Health ─────────────────────────────────────────────────────────────
-    Word(id: '健康', hanzi: '健康', pinyin: 'jiàn kāng', english: 'healthy', category: 'Health', exampleHanzi: '多吃水果，身体健康。', examplePinyin: 'Duō chī shuǐguǒ, shēntǐ jiànkāng.', exampleEnglish: 'Eat more fruit, stay healthy.'),
-    Word(id: '生病', hanzi: '生病', pinyin: 'shēng bìng', english: 'to get sick', category: 'Health', exampleHanzi: '他生病了。', examplePinyin: 'Tā shēngbìng le.', exampleEnglish: 'He got sick.'),
-    Word(id: '药', hanzi: '药', pinyin: 'yào', english: 'medicine', category: 'Health', exampleHanzi: '请按时吃药。', examplePinyin: 'Qǐng ànshí chī yào.', exampleEnglish: 'Please take medicine on time.'),
-    Word(id: '感冒', hanzi: '感冒', pinyin: 'gǎn mào', english: 'cold (illness)', category: 'Health', exampleHanzi: '我感冒了。', examplePinyin: 'Wǒ gǎnmào le.', exampleEnglish: 'I caught a cold.'),
-    Word(id: '头疼', hanzi: '头疼', pinyin: 'tóu téng', english: 'headache', category: 'Health', exampleHanzi: '我头疼。', examplePinyin: 'Wǒ tóuténg.', exampleEnglish: 'I have a headache.'),
-    Word(id: '发烧', hanzi: '发烧', pinyin: 'fā shāo', english: 'to have a fever', category: 'Health', exampleHanzi: '她发烧了。', examplePinyin: 'Tā fāshāo le.', exampleEnglish: 'She has a fever.'),
-    Word(id: '休息', hanzi: '休息', pinyin: 'xiū xi', english: 'to rest', category: 'Health', exampleHanzi: '你需要休息。', examplePinyin: 'Nǐ xūyào xiūxi.', exampleEnglish: 'You need to rest.'),
-    Word(id: '舒服', hanzi: '舒服', pinyin: 'shū fu', english: 'comfortable, well', category: 'Health', exampleHanzi: '今天不太舒服。', examplePinyin: 'Jīntiān bú tài shūfu.', exampleEnglish: 'Not feeling well today.'),
+    Word(id: '健康', hskLevel: 3, hanzi: '健康', pinyin: 'jiàn kāng', english: 'healthy', category: 'Health', exampleHanzi: '多吃水果，身体健康。', examplePinyin: 'Duō chī shuǐguǒ, shēntǐ jiànkāng.', exampleEnglish: 'Eat more fruit, stay healthy.'),
+    Word(id: '生病', hskLevel: 3, hanzi: '生病', pinyin: 'shēng bìng', english: 'to get sick', category: 'Health', exampleHanzi: '他生病了。', examplePinyin: 'Tā shēngbìng le.', exampleEnglish: 'He got sick.'),
+    Word(id: '药', hskLevel: 3, hanzi: '药', pinyin: 'yào', english: 'medicine', category: 'Health', exampleHanzi: '请按时吃药。', examplePinyin: 'Qǐng ànshí chī yào.', exampleEnglish: 'Please take medicine on time.'),
+    Word(id: '感冒', hskLevel: 3, hanzi: '感冒', pinyin: 'gǎn mào', english: 'cold (illness)', category: 'Health', exampleHanzi: '我感冒了。', examplePinyin: 'Wǒ gǎnmào le.', exampleEnglish: 'I caught a cold.'),
+    Word(id: '头疼', hskLevel: 3, hanzi: '头疼', pinyin: 'tóu téng', english: 'headache', category: 'Health', exampleHanzi: '我头疼。', examplePinyin: 'Wǒ tóuténg.', exampleEnglish: 'I have a headache.'),
+    Word(id: '发烧', hskLevel: 3, hanzi: '发烧', pinyin: 'fā shāo', english: 'to have a fever', category: 'Health', exampleHanzi: '她发烧了。', examplePinyin: 'Tā fāshāo le.', exampleEnglish: 'She has a fever.'),
+    Word(id: '休息', hskLevel: 3, hanzi: '休息', pinyin: 'xiū xi', english: 'to rest', category: 'Health', exampleHanzi: '你需要休息。', examplePinyin: 'Nǐ xūyào xiūxi.', exampleEnglish: 'You need to rest.'),
+    Word(id: '舒服', hskLevel: 3, hanzi: '舒服', pinyin: 'shū fu', english: 'comfortable, well', category: 'Health', exampleHanzi: '今天不太舒服。', examplePinyin: 'Jīntiān bú tài shūfu.', exampleEnglish: 'Not feeling well today.'),
 
     // ── Emotions ───────────────────────────────────────────────────────────
-    Word(id: '开心', hanzi: '开心', pinyin: 'kāi xīn', english: 'happy', category: 'Emotions', exampleHanzi: '今天我很开心。', examplePinyin: 'Jīntiān wǒ hěn kāixīn.', exampleEnglish: "I'm happy today."),
-    Word(id: '难过', hanzi: '难过', pinyin: 'nán guò', english: 'sad', category: 'Emotions', exampleHanzi: '别难过。', examplePinyin: 'Bié nánguò.', exampleEnglish: "Don't be sad."),
-    Word(id: '生气', hanzi: '生气', pinyin: 'shēng qì', english: 'angry', category: 'Emotions', exampleHanzi: '别生气。', examplePinyin: 'Bié shēngqì.', exampleEnglish: "Don't be angry."),
-    Word(id: '害怕', hanzi: '害怕', pinyin: 'hài pà', english: 'afraid', category: 'Emotions', exampleHanzi: '我害怕蛇。', examplePinyin: 'Wǒ hàipà shé.', exampleEnglish: "I'm afraid of snakes."),
-    Word(id: '担心', hanzi: '担心', pinyin: 'dān xīn', english: 'worried', category: 'Emotions', exampleHanzi: '别担心。', examplePinyin: 'Bié dānxīn.', exampleEnglish: "Don't worry."),
-    Word(id: '想念', hanzi: '想念', pinyin: 'xiǎng niàn', english: 'to miss (someone)', category: 'Emotions', exampleHanzi: '我想念你。', examplePinyin: 'Wǒ xiǎngniàn nǐ.', exampleEnglish: 'I miss you.'),
-    Word(id: '感动', hanzi: '感动', pinyin: 'gǎn dòng', english: 'touched, moved', category: 'Emotions', exampleHanzi: '我很感动。', examplePinyin: 'Wǒ hěn gǎndòng.', exampleEnglish: "I'm touched."),
-    Word(id: '紧张', hanzi: '紧张', pinyin: 'jǐn zhāng', english: 'nervous', category: 'Emotions', exampleHanzi: '考试前我很紧张。', examplePinyin: 'Kǎoshì qián wǒ hěn jǐnzhāng.', exampleEnglish: "I'm nervous before exams."),
+    Word(id: '开心', hskLevel: 3, hanzi: '开心', pinyin: 'kāi xīn', english: 'happy', category: 'Emotions', exampleHanzi: '今天我很开心。', examplePinyin: 'Jīntiān wǒ hěn kāixīn.', exampleEnglish: "I'm happy today."),
+    Word(id: '难过', hskLevel: 3, hanzi: '难过', pinyin: 'nán guò', english: 'sad', category: 'Emotions', exampleHanzi: '别难过。', examplePinyin: 'Bié nánguò.', exampleEnglish: "Don't be sad."),
+    Word(id: '生气', hskLevel: 3, hanzi: '生气', pinyin: 'shēng qì', english: 'angry', category: 'Emotions', exampleHanzi: '别生气。', examplePinyin: 'Bié shēngqì.', exampleEnglish: "Don't be angry."),
+    Word(id: '害怕', hskLevel: 3, hanzi: '害怕', pinyin: 'hài pà', english: 'afraid', category: 'Emotions', exampleHanzi: '我害怕蛇。', examplePinyin: 'Wǒ hàipà shé.', exampleEnglish: "I'm afraid of snakes."),
+    Word(id: '担心', hskLevel: 3, hanzi: '担心', pinyin: 'dān xīn', english: 'worried', category: 'Emotions', exampleHanzi: '别担心。', examplePinyin: 'Bié dānxīn.', exampleEnglish: "Don't worry."),
+    Word(id: '想念', hskLevel: 3, hanzi: '想念', pinyin: 'xiǎng niàn', english: 'to miss (someone)', category: 'Emotions', exampleHanzi: '我想念你。', examplePinyin: 'Wǒ xiǎngniàn nǐ.', exampleEnglish: 'I miss you.'),
+    Word(id: '感动', hskLevel: 3, hanzi: '感动', pinyin: 'gǎn dòng', english: 'touched, moved', category: 'Emotions', exampleHanzi: '我很感动。', examplePinyin: 'Wǒ hěn gǎndòng.', exampleEnglish: "I'm touched."),
+    Word(id: '紧张', hskLevel: 3, hanzi: '紧张', pinyin: 'jǐn zhāng', english: 'nervous', category: 'Emotions', exampleHanzi: '考试前我很紧张。', examplePinyin: 'Kǎoshì qián wǒ hěn jǐnzhāng.', exampleEnglish: "I'm nervous before exams."),
 
     // ── Directions ─────────────────────────────────────────────────────────
-    Word(id: '上', hanzi: '上', pinyin: 'shàng', english: 'up, above, on', category: 'Directions', exampleHanzi: '书在桌子上。', examplePinyin: 'Shū zài zhuōzi shang.', exampleEnglish: 'The book is on the table.'),
-    Word(id: '下', hanzi: '下', pinyin: 'xià', english: 'down, below, under', category: 'Directions', exampleHanzi: '猫在桌子下。', examplePinyin: 'Māo zài zhuōzi xià.', exampleEnglish: 'The cat is under the table.'),
-    Word(id: '左', hanzi: '左', pinyin: 'zuǒ', english: 'left', category: 'Directions', exampleHanzi: '向左转。', examplePinyin: 'Xiàng zuǒ zhuǎn.', exampleEnglish: 'Turn left.'),
-    Word(id: '右', hanzi: '右', pinyin: 'yòu', english: 'right', category: 'Directions', exampleHanzi: '向右转。', examplePinyin: 'Xiàng yòu zhuǎn.', exampleEnglish: 'Turn right.'),
-    Word(id: '前', hanzi: '前', pinyin: 'qián', english: 'front, ahead', category: 'Directions', exampleHanzi: '学校在前面。', examplePinyin: 'Xuéxiào zài qiánmiàn.', exampleEnglish: 'The school is ahead.'),
-    Word(id: '后', hanzi: '后', pinyin: 'hòu', english: 'back, behind', category: 'Directions', exampleHanzi: '商店在银行后面。', examplePinyin: 'Shāngdiàn zài yínháng hòumiàn.', exampleEnglish: 'The shop is behind the bank.'),
-    Word(id: '里', hanzi: '里', pinyin: 'lǐ', english: 'inside, in', category: 'Directions', exampleHanzi: '老师在教室里。', examplePinyin: 'Lǎoshī zài jiàoshì lǐ.', exampleEnglish: 'The teacher is in the classroom.'),
-    Word(id: '外', hanzi: '外', pinyin: 'wài', english: 'outside', category: 'Directions', exampleHanzi: '他在外面等你。', examplePinyin: 'Tā zài wàimiàn děng nǐ.', exampleEnglish: "He's waiting for you outside."),
-    Word(id: '旁边', hanzi: '旁边', pinyin: 'páng biān', english: 'beside, next to', category: 'Directions', exampleHanzi: '医院在学校旁边。', examplePinyin: 'Yīyuàn zài xuéxiào pángbiān.', exampleEnglish: 'The hospital is beside the school.'),
-    Word(id: '对面', hanzi: '对面', pinyin: 'duì miàn', english: 'opposite', category: 'Directions', exampleHanzi: '银行在对面。', examplePinyin: 'Yínháng zài duìmiàn.', exampleEnglish: 'The bank is opposite.'),
-    Word(id: '附近', hanzi: '附近', pinyin: 'fù jìn', english: 'nearby', category: 'Directions', exampleHanzi: '附近有超市吗？', examplePinyin: 'Fùjìn yǒu chāoshì ma?', exampleEnglish: 'Is there a supermarket nearby?'),
-    Word(id: '这里', hanzi: '这里', pinyin: 'zhè lǐ', english: 'here', category: 'Directions', exampleHanzi: '这里很漂亮。', examplePinyin: 'Zhèlǐ hěn piàoliang.', exampleEnglish: "It's beautiful here."),
-    Word(id: '那里', hanzi: '那里', pinyin: 'nà lǐ', english: 'there', category: 'Directions', exampleHanzi: '那里有人。', examplePinyin: 'Nàlǐ yǒu rén.', exampleEnglish: 'There are people there.'),
-    Word(id: '中间', hanzi: '中间', pinyin: 'zhōng jiān', english: 'middle', category: 'Directions', exampleHanzi: '他站在中间。', examplePinyin: 'Tā zhàn zài zhōngjiān.', exampleEnglish: 'He stands in the middle.'),
+    Word(id: '上', hskLevel: 3, hanzi: '上', pinyin: 'shàng', english: 'up, above, on', category: 'Directions', exampleHanzi: '书在桌子上。', examplePinyin: 'Shū zài zhuōzi shang.', exampleEnglish: 'The book is on the table.'),
+    Word(id: '下', hskLevel: 3, hanzi: '下', pinyin: 'xià', english: 'down, below, under', category: 'Directions', exampleHanzi: '猫在桌子下。', examplePinyin: 'Māo zài zhuōzi xià.', exampleEnglish: 'The cat is under the table.'),
+    Word(id: '左', hskLevel: 3, hanzi: '左', pinyin: 'zuǒ', english: 'left', category: 'Directions', exampleHanzi: '向左转。', examplePinyin: 'Xiàng zuǒ zhuǎn.', exampleEnglish: 'Turn left.'),
+    Word(id: '右', hskLevel: 3, hanzi: '右', pinyin: 'yòu', english: 'right', category: 'Directions', exampleHanzi: '向右转。', examplePinyin: 'Xiàng yòu zhuǎn.', exampleEnglish: 'Turn right.'),
+    Word(id: '前', hskLevel: 3, hanzi: '前', pinyin: 'qián', english: 'front, ahead', category: 'Directions', exampleHanzi: '学校在前面。', examplePinyin: 'Xuéxiào zài qiánmiàn.', exampleEnglish: 'The school is ahead.'),
+    Word(id: '后', hskLevel: 3, hanzi: '后', pinyin: 'hòu', english: 'back, behind', category: 'Directions', exampleHanzi: '商店在银行后面。', examplePinyin: 'Shāngdiàn zài yínháng hòumiàn.', exampleEnglish: 'The shop is behind the bank.'),
+    Word(id: '里', hskLevel: 3, hanzi: '里', pinyin: 'lǐ', english: 'inside, in', category: 'Directions', exampleHanzi: '老师在教室里。', examplePinyin: 'Lǎoshī zài jiàoshì lǐ.', exampleEnglish: 'The teacher is in the classroom.'),
+    Word(id: '外', hskLevel: 3, hanzi: '外', pinyin: 'wài', english: 'outside', category: 'Directions', exampleHanzi: '他在外面等你。', examplePinyin: 'Tā zài wàimiàn děng nǐ.', exampleEnglish: "He's waiting for you outside."),
+    Word(id: '旁边', hskLevel: 3, hanzi: '旁边', pinyin: 'páng biān', english: 'beside, next to', category: 'Directions', exampleHanzi: '医院在学校旁边。', examplePinyin: 'Yīyuàn zài xuéxiào pángbiān.', exampleEnglish: 'The hospital is beside the school.'),
+    Word(id: '对面', hskLevel: 3, hanzi: '对面', pinyin: 'duì miàn', english: 'opposite', category: 'Directions', exampleHanzi: '银行在对面。', examplePinyin: 'Yínháng zài duìmiàn.', exampleEnglish: 'The bank is opposite.'),
+    Word(id: '附近', hskLevel: 3, hanzi: '附近', pinyin: 'fù jìn', english: 'nearby', category: 'Directions', exampleHanzi: '附近有超市吗？', examplePinyin: 'Fùjìn yǒu chāoshì ma?', exampleEnglish: 'Is there a supermarket nearby?'),
+    Word(id: '这里', hskLevel: 3, hanzi: '这里', pinyin: 'zhè lǐ', english: 'here', category: 'Directions', exampleHanzi: '这里很漂亮。', examplePinyin: 'Zhèlǐ hěn piàoliang.', exampleEnglish: "It's beautiful here."),
+    Word(id: '那里', hskLevel: 3, hanzi: '那里', pinyin: 'nà lǐ', english: 'there', category: 'Directions', exampleHanzi: '那里有人。', examplePinyin: 'Nàlǐ yǒu rén.', exampleEnglish: 'There are people there.'),
+    Word(id: '中间', hskLevel: 3, hanzi: '中间', pinyin: 'zhōng jiān', english: 'middle', category: 'Directions', exampleHanzi: '他站在中间。', examplePinyin: 'Tā zhàn zài zhōngjiān.', exampleEnglish: 'He stands in the middle.'),
 
     // ── Sports & hobbies ───────────────────────────────────────────────────
-    Word(id: '运动', hanzi: '运动', pinyin: 'yùn dòng', english: 'sport, exercise', category: 'Sports', exampleHanzi: '我每天运动。', examplePinyin: 'Wǒ měi tiān yùndòng.', exampleEnglish: 'I exercise every day.'),
-    Word(id: '游泳', hanzi: '游泳', pinyin: 'yóu yǒng', english: 'swimming', category: 'Sports', exampleHanzi: '我会游泳。', examplePinyin: 'Wǒ huì yóuyǒng.', exampleEnglish: 'I can swim.'),
-    Word(id: '跑步', hanzi: '跑步', pinyin: 'pǎo bù', english: 'running, to jog', category: 'Sports', exampleHanzi: '我早上跑步。', examplePinyin: 'Wǒ zǎoshang pǎobù.', exampleEnglish: 'I run in the morning.'),
-    Word(id: '打球', hanzi: '打球', pinyin: 'dǎ qiú', english: 'to play ball', category: 'Sports', exampleHanzi: '我们去打球吧。', examplePinyin: 'Wǒmen qù dǎqiú ba.', exampleEnglish: "Let's go play ball."),
-    Word(id: '篮球', hanzi: '篮球', pinyin: 'lán qiú', english: 'basketball', category: 'Sports', exampleHanzi: '我喜欢打篮球。', examplePinyin: 'Wǒ xǐhuan dǎ lánqiú.', exampleEnglish: 'I like playing basketball.'),
-    Word(id: '足球', hanzi: '足球', pinyin: 'zú qiú', english: 'football, soccer', category: 'Sports', exampleHanzi: '他喜欢踢足球。', examplePinyin: 'Tā xǐhuan tī zúqiú.', exampleEnglish: 'He likes playing football.'),
-    Word(id: '唱歌', hanzi: '唱歌', pinyin: 'chàng gē', english: 'to sing', category: 'Sports', exampleHanzi: '她唱歌很好听。', examplePinyin: 'Tā chànggē hěn hǎotīng.', exampleEnglish: 'She sings well.'),
-    Word(id: '跳舞', hanzi: '跳舞', pinyin: 'tiào wǔ', english: 'to dance', category: 'Sports', exampleHanzi: '我会跳舞。', examplePinyin: 'Wǒ huì tiàowǔ.', exampleEnglish: 'I can dance.'),
-    Word(id: '画画', hanzi: '画画', pinyin: 'huà huà', english: 'to draw, paint', category: 'Sports', exampleHanzi: '我喜欢画画。', examplePinyin: 'Wǒ xǐhuan huàhuà.', exampleEnglish: 'I like drawing.'),
-    Word(id: '旅游', hanzi: '旅游', pinyin: 'lǚ yóu', english: 'to travel', category: 'Sports', exampleHanzi: '我喜欢旅游。', examplePinyin: 'Wǒ xǐhuan lǚyóu.', exampleEnglish: 'I like traveling.'),
-    Word(id: '玩', hanzi: '玩', pinyin: 'wán', english: 'to play, have fun', category: 'Sports', exampleHanzi: '孩子们在玩。', examplePinyin: 'Háizimen zài wán.', exampleEnglish: 'The children are playing.'),
-    Word(id: '游戏', hanzi: '游戏', pinyin: 'yóu xì', english: 'game', category: 'Sports', exampleHanzi: '他在玩电脑游戏。', examplePinyin: 'Tā zài wán diànnǎo yóuxì.', exampleEnglish: "He's playing computer games."),
+    Word(id: '运动', hskLevel: 3, hanzi: '运动', pinyin: 'yùn dòng', english: 'sport, exercise', category: 'Sports', exampleHanzi: '我每天运动。', examplePinyin: 'Wǒ měi tiān yùndòng.', exampleEnglish: 'I exercise every day.'),
+    Word(id: '游泳', hskLevel: 3, hanzi: '游泳', pinyin: 'yóu yǒng', english: 'swimming', category: 'Sports', exampleHanzi: '我会游泳。', examplePinyin: 'Wǒ huì yóuyǒng.', exampleEnglish: 'I can swim.'),
+    Word(id: '跑步', hskLevel: 3, hanzi: '跑步', pinyin: 'pǎo bù', english: 'running, to jog', category: 'Sports', exampleHanzi: '我早上跑步。', examplePinyin: 'Wǒ zǎoshang pǎobù.', exampleEnglish: 'I run in the morning.'),
+    Word(id: '打球', hskLevel: 3, hanzi: '打球', pinyin: 'dǎ qiú', english: 'to play ball', category: 'Sports', exampleHanzi: '我们去打球吧。', examplePinyin: 'Wǒmen qù dǎqiú ba.', exampleEnglish: "Let's go play ball."),
+    Word(id: '篮球', hskLevel: 3, hanzi: '篮球', pinyin: 'lán qiú', english: 'basketball', category: 'Sports', exampleHanzi: '我喜欢打篮球。', examplePinyin: 'Wǒ xǐhuan dǎ lánqiú.', exampleEnglish: 'I like playing basketball.'),
+    Word(id: '足球', hskLevel: 3, hanzi: '足球', pinyin: 'zú qiú', english: 'football, soccer', category: 'Sports', exampleHanzi: '他喜欢踢足球。', examplePinyin: 'Tā xǐhuan tī zúqiú.', exampleEnglish: 'He likes playing football.'),
+    Word(id: '唱歌', hskLevel: 3, hanzi: '唱歌', pinyin: 'chàng gē', english: 'to sing', category: 'Sports', exampleHanzi: '她唱歌很好听。', examplePinyin: 'Tā chànggē hěn hǎotīng.', exampleEnglish: 'She sings well.'),
+    Word(id: '跳舞', hskLevel: 3, hanzi: '跳舞', pinyin: 'tiào wǔ', english: 'to dance', category: 'Sports', exampleHanzi: '我会跳舞。', examplePinyin: 'Wǒ huì tiàowǔ.', exampleEnglish: 'I can dance.'),
+    Word(id: '画画', hskLevel: 3, hanzi: '画画', pinyin: 'huà huà', english: 'to draw, paint', category: 'Sports', exampleHanzi: '我喜欢画画。', examplePinyin: 'Wǒ xǐhuan huàhuà.', exampleEnglish: 'I like drawing.'),
+    Word(id: '旅游', hskLevel: 3, hanzi: '旅游', pinyin: 'lǚ yóu', english: 'to travel', category: 'Sports', exampleHanzi: '我喜欢旅游。', examplePinyin: 'Wǒ xǐhuan lǚyóu.', exampleEnglish: 'I like traveling.'),
+    Word(id: '玩', hskLevel: 3, hanzi: '玩', pinyin: 'wán', english: 'to play, have fun', category: 'Sports', exampleHanzi: '孩子们在玩。', examplePinyin: 'Háizimen zài wán.', exampleEnglish: 'The children are playing.'),
+    Word(id: '游戏', hskLevel: 3, hanzi: '游戏', pinyin: 'yóu xì', english: 'game', category: 'Sports', exampleHanzi: '他在玩电脑游戏。', examplePinyin: 'Tā zài wán diànnǎo yóuxì.', exampleEnglish: "He's playing computer games."),
 
     // ── More verbs ─────────────────────────────────────────────────────────
-    Word(id: '给', hanzi: '给', pinyin: 'gěi', english: 'to give', category: 'Verbs', exampleHanzi: '请给我水。', examplePinyin: 'Qǐng gěi wǒ shuǐ.', exampleEnglish: 'Please give me water.'),
-    Word(id: '拿', hanzi: '拿', pinyin: 'ná', english: 'to take, hold', category: 'Verbs', exampleHanzi: '请拿着这个。', examplePinyin: 'Qǐng ná zhe zhège.', exampleEnglish: 'Please hold this.'),
-    Word(id: '送', hanzi: '送', pinyin: 'sòng', english: 'to give, send, see off', category: 'Verbs', exampleHanzi: '我送你去车站。', examplePinyin: 'Wǒ sòng nǐ qù chēzhàn.', exampleEnglish: "I'll take you to the station."),
-    Word(id: '帮助', hanzi: '帮助', pinyin: 'bāng zhù', english: 'to help', category: 'Verbs', exampleHanzi: '谢谢你帮助我。', examplePinyin: 'Xièxie nǐ bāngzhù wǒ.', exampleEnglish: 'Thank you for helping me.'),
-    Word(id: '告诉', hanzi: '告诉', pinyin: 'gào su', english: 'to tell', category: 'Verbs', exampleHanzi: '请告诉我。', examplePinyin: 'Qǐng gàosu wǒ.', exampleEnglish: 'Please tell me.'),
-    Word(id: '问', hanzi: '问', pinyin: 'wèn', english: 'to ask', category: 'Verbs', exampleHanzi: '我想问一个问题。', examplePinyin: 'Wǒ xiǎng wèn yí gè wèntí.', exampleEnglish: 'I want to ask a question.'),
-    Word(id: '回答', hanzi: '回答', pinyin: 'huí dá', english: 'to answer', category: 'Verbs', exampleHanzi: '请回答问题。', examplePinyin: 'Qǐng huídá wèntí.', exampleEnglish: 'Please answer the question.'),
-    Word(id: '找', hanzi: '找', pinyin: 'zhǎo', english: 'to look for', category: 'Verbs', exampleHanzi: '我在找我的手机。', examplePinyin: 'Wǒ zài zhǎo wǒ de shǒujī.', exampleEnglish: "I'm looking for my phone."),
-    Word(id: '等', hanzi: '等', pinyin: 'děng', english: 'to wait', category: 'Verbs', exampleHanzi: '请等一下。', examplePinyin: 'Qǐng děng yíxià.', exampleEnglish: 'Please wait a moment.'),
-    Word(id: '开', hanzi: '开', pinyin: 'kāi', english: 'to open, drive', category: 'Verbs', exampleHanzi: '请开门。', examplePinyin: 'Qǐng kāimén.', exampleEnglish: 'Please open the door.'),
-    Word(id: '关', hanzi: '关', pinyin: 'guān', english: 'to close, turn off', category: 'Verbs', exampleHanzi: '请关门。', examplePinyin: 'Qǐng guānmén.', exampleEnglish: 'Please close the door.'),
-    Word(id: '坐', hanzi: '坐', pinyin: 'zuò', english: 'to sit', category: 'Verbs', exampleHanzi: '请坐。', examplePinyin: 'Qǐng zuò.', exampleEnglish: 'Please sit.'),
-    Word(id: '站', hanzi: '站', pinyin: 'zhàn', english: 'to stand', category: 'Verbs', exampleHanzi: '请站起来。', examplePinyin: 'Qǐng zhàn qǐlái.', exampleEnglish: 'Please stand up.'),
-    Word(id: '走', hanzi: '走', pinyin: 'zǒu', english: 'to walk', category: 'Verbs', exampleHanzi: '我们走路去。', examplePinyin: 'Wǒmen zǒulù qù.', exampleEnglish: "Let's walk there."),
-    Word(id: '跑', hanzi: '跑', pinyin: 'pǎo', english: 'to run', category: 'Verbs', exampleHanzi: '他跑得很快。', examplePinyin: 'Tā pǎo de hěn kuài.', exampleEnglish: 'He runs fast.'),
-    Word(id: '飞', hanzi: '飞', pinyin: 'fēi', english: 'to fly', category: 'Verbs', exampleHanzi: '鸟会飞。', examplePinyin: 'Niǎo huì fēi.', exampleEnglish: 'Birds can fly.'),
-    Word(id: '用', hanzi: '用', pinyin: 'yòng', english: 'to use', category: 'Verbs', exampleHanzi: '我用手机打电话。', examplePinyin: 'Wǒ yòng shǒujī dǎ diànhuà.', exampleEnglish: 'I use my phone to make calls.'),
-    Word(id: '让', hanzi: '让', pinyin: 'ràng', english: 'to let, allow', category: 'Verbs', exampleHanzi: '让我看看。', examplePinyin: 'Ràng wǒ kànkan.', exampleEnglish: 'Let me take a look.'),
-    Word(id: '带', hanzi: '带', pinyin: 'dài', english: 'to bring, take', category: 'Verbs', exampleHanzi: '我带伞了。', examplePinyin: 'Wǒ dài sǎn le.', exampleEnglish: 'I brought an umbrella.'),
-    Word(id: '回家', hanzi: '回家', pinyin: 'huí jiā', english: 'to go home', category: 'Verbs', exampleHanzi: '我六点回家。', examplePinyin: 'Wǒ liù diǎn huíjiā.', exampleEnglish: 'I go home at six.'),
-    Word(id: '出去', hanzi: '出去', pinyin: 'chū qù', english: 'to go out', category: 'Verbs', exampleHanzi: '我想出去走走。', examplePinyin: 'Wǒ xiǎng chūqù zǒuzou.', exampleEnglish: 'I want to go out for a walk.'),
-    Word(id: '回来', hanzi: '回来', pinyin: 'huí lái', english: 'to come back', category: 'Verbs', exampleHanzi: '他明天回来。', examplePinyin: 'Tā míngtiān huílái.', exampleEnglish: "He's coming back tomorrow."),
-    Word(id: '睡觉', hanzi: '睡觉', pinyin: 'shuì jiào', english: 'to sleep', category: 'Verbs', exampleHanzi: '我要睡觉了。', examplePinyin: 'Wǒ yào shuìjiào le.', exampleEnglish: "I'm going to sleep."),
-    Word(id: '起床', hanzi: '起床', pinyin: 'qǐ chuáng', english: 'to get up', category: 'Verbs', exampleHanzi: '我七点起床。', examplePinyin: 'Wǒ qī diǎn qǐchuáng.', exampleEnglish: 'I get up at seven.'),
-    Word(id: '见面', hanzi: '见面', pinyin: 'jiàn miàn', english: 'to meet', category: 'Verbs', exampleHanzi: '我们明天见面。', examplePinyin: 'Wǒmen míngtiān jiànmiàn.', exampleEnglish: "We'll meet tomorrow."),
+    Word(id: '给', hskLevel: 2, hanzi: '给', pinyin: 'gěi', english: 'to give', category: 'Verbs', exampleHanzi: '请给我水。', examplePinyin: 'Qǐng gěi wǒ shuǐ.', exampleEnglish: 'Please give me water.'),
+    Word(id: '拿', hskLevel: 2, hanzi: '拿', pinyin: 'ná', english: 'to take, hold', category: 'Verbs', exampleHanzi: '请拿着这个。', examplePinyin: 'Qǐng ná zhe zhège.', exampleEnglish: 'Please hold this.'),
+    Word(id: '送', hskLevel: 2, hanzi: '送', pinyin: 'sòng', english: 'to give, send, see off', category: 'Verbs', exampleHanzi: '我送你去车站。', examplePinyin: 'Wǒ sòng nǐ qù chēzhàn.', exampleEnglish: "I'll take you to the station."),
+    Word(id: '帮助', hskLevel: 2, hanzi: '帮助', pinyin: 'bāng zhù', english: 'to help', category: 'Verbs', exampleHanzi: '谢谢你帮助我。', examplePinyin: 'Xièxie nǐ bāngzhù wǒ.', exampleEnglish: 'Thank you for helping me.'),
+    Word(id: '告诉', hskLevel: 2, hanzi: '告诉', pinyin: 'gào su', english: 'to tell', category: 'Verbs', exampleHanzi: '请告诉我。', examplePinyin: 'Qǐng gàosu wǒ.', exampleEnglish: 'Please tell me.'),
+    Word(id: '问', hskLevel: 2, hanzi: '问', pinyin: 'wèn', english: 'to ask', category: 'Verbs', exampleHanzi: '我想问一个问题。', examplePinyin: 'Wǒ xiǎng wèn yí gè wèntí.', exampleEnglish: 'I want to ask a question.'),
+    Word(id: '回答', hskLevel: 2, hanzi: '回答', pinyin: 'huí dá', english: 'to answer', category: 'Verbs', exampleHanzi: '请回答问题。', examplePinyin: 'Qǐng huídá wèntí.', exampleEnglish: 'Please answer the question.'),
+    Word(id: '找', hskLevel: 2, hanzi: '找', pinyin: 'zhǎo', english: 'to look for', category: 'Verbs', exampleHanzi: '我在找我的手机。', examplePinyin: 'Wǒ zài zhǎo wǒ de shǒujī.', exampleEnglish: "I'm looking for my phone."),
+    Word(id: '等', hskLevel: 2, hanzi: '等', pinyin: 'děng', english: 'to wait', category: 'Verbs', exampleHanzi: '请等一下。', examplePinyin: 'Qǐng děng yíxià.', exampleEnglish: 'Please wait a moment.'),
+    Word(id: '开', hskLevel: 2, hanzi: '开', pinyin: 'kāi', english: 'to open, drive', category: 'Verbs', exampleHanzi: '请开门。', examplePinyin: 'Qǐng kāimén.', exampleEnglish: 'Please open the door.'),
+    Word(id: '关', hskLevel: 2, hanzi: '关', pinyin: 'guān', english: 'to close, turn off', category: 'Verbs', exampleHanzi: '请关门。', examplePinyin: 'Qǐng guānmén.', exampleEnglish: 'Please close the door.'),
+    Word(id: '坐', hskLevel: 2, hanzi: '坐', pinyin: 'zuò', english: 'to sit', category: 'Verbs', exampleHanzi: '请坐。', examplePinyin: 'Qǐng zuò.', exampleEnglish: 'Please sit.'),
+    Word(id: '站', hskLevel: 2, hanzi: '站', pinyin: 'zhàn', english: 'to stand', category: 'Verbs', exampleHanzi: '请站起来。', examplePinyin: 'Qǐng zhàn qǐlái.', exampleEnglish: 'Please stand up.'),
+    Word(id: '走', hskLevel: 2, hanzi: '走', pinyin: 'zǒu', english: 'to walk', category: 'Verbs', exampleHanzi: '我们走路去。', examplePinyin: 'Wǒmen zǒulù qù.', exampleEnglish: "Let's walk there."),
+    Word(id: '跑', hskLevel: 2, hanzi: '跑', pinyin: 'pǎo', english: 'to run', category: 'Verbs', exampleHanzi: '他跑得很快。', examplePinyin: 'Tā pǎo de hěn kuài.', exampleEnglish: 'He runs fast.'),
+    Word(id: '飞', hskLevel: 2, hanzi: '飞', pinyin: 'fēi', english: 'to fly', category: 'Verbs', exampleHanzi: '鸟会飞。', examplePinyin: 'Niǎo huì fēi.', exampleEnglish: 'Birds can fly.'),
+    Word(id: '用', hskLevel: 2, hanzi: '用', pinyin: 'yòng', english: 'to use', category: 'Verbs', exampleHanzi: '我用手机打电话。', examplePinyin: 'Wǒ yòng shǒujī dǎ diànhuà.', exampleEnglish: 'I use my phone to make calls.'),
+    Word(id: '让', hskLevel: 2, hanzi: '让', pinyin: 'ràng', english: 'to let, allow', category: 'Verbs', exampleHanzi: '让我看看。', examplePinyin: 'Ràng wǒ kànkan.', exampleEnglish: 'Let me take a look.'),
+    Word(id: '带', hskLevel: 2, hanzi: '带', pinyin: 'dài', english: 'to bring, take', category: 'Verbs', exampleHanzi: '我带伞了。', examplePinyin: 'Wǒ dài sǎn le.', exampleEnglish: 'I brought an umbrella.'),
+    Word(id: '回家', hskLevel: 2, hanzi: '回家', pinyin: 'huí jiā', english: 'to go home', category: 'Verbs', exampleHanzi: '我六点回家。', examplePinyin: 'Wǒ liù diǎn huíjiā.', exampleEnglish: 'I go home at six.'),
+    Word(id: '出去', hskLevel: 2, hanzi: '出去', pinyin: 'chū qù', english: 'to go out', category: 'Verbs', exampleHanzi: '我想出去走走。', examplePinyin: 'Wǒ xiǎng chūqù zǒuzou.', exampleEnglish: 'I want to go out for a walk.'),
+    Word(id: '回来', hskLevel: 2, hanzi: '回来', pinyin: 'huí lái', english: 'to come back', category: 'Verbs', exampleHanzi: '他明天回来。', examplePinyin: 'Tā míngtiān huílái.', exampleEnglish: "He's coming back tomorrow."),
+    Word(id: '睡觉', hskLevel: 2, hanzi: '睡觉', pinyin: 'shuì jiào', english: 'to sleep', category: 'Verbs', exampleHanzi: '我要睡觉了。', examplePinyin: 'Wǒ yào shuìjiào le.', exampleEnglish: "I'm going to sleep."),
+    Word(id: '起床', hskLevel: 2, hanzi: '起床', pinyin: 'qǐ chuáng', english: 'to get up', category: 'Verbs', exampleHanzi: '我七点起床。', examplePinyin: 'Wǒ qī diǎn qǐchuáng.', exampleEnglish: 'I get up at seven.'),
+    Word(id: '见面', hskLevel: 2, hanzi: '见面', pinyin: 'jiàn miàn', english: 'to meet', category: 'Verbs', exampleHanzi: '我们明天见面。', examplePinyin: 'Wǒmen míngtiān jiànmiàn.', exampleEnglish: "We'll meet tomorrow."),
 
     // ── More adjectives ────────────────────────────────────────────────────
-    Word(id: '新', hanzi: '新', pinyin: 'xīn', english: 'new', category: 'Adjectives', exampleHanzi: '我有一本新书。', examplePinyin: 'Wǒ yǒu yì běn xīn shū.', exampleEnglish: 'I have a new book.'),
-    Word(id: '旧', hanzi: '旧', pinyin: 'jiù', english: 'old (things)', category: 'Adjectives', exampleHanzi: '这是旧衣服。', examplePinyin: 'Zhè shì jiù yīfu.', exampleEnglish: 'These are old clothes.'),
-    Word(id: '老', hanzi: '老', pinyin: 'lǎo', english: 'old (people)', category: 'Adjectives', exampleHanzi: '那位老人很和善。', examplePinyin: 'Nà wèi lǎorén hěn héshàn.', exampleEnglish: 'That old man is kind.'),
-    Word(id: '年轻', hanzi: '年轻', pinyin: 'nián qīng', english: 'young', category: 'Adjectives', exampleHanzi: '她很年轻。', examplePinyin: 'Tā hěn niánqīng.', exampleEnglish: 'She is young.'),
-    Word(id: '快', hanzi: '快', pinyin: 'kuài', english: 'fast', category: 'Adjectives', exampleHanzi: '火车很快。', examplePinyin: 'Huǒchē hěn kuài.', exampleEnglish: 'The train is fast.'),
-    Word(id: '慢', hanzi: '慢', pinyin: 'màn', english: 'slow', category: 'Adjectives', exampleHanzi: '请说慢一点。', examplePinyin: 'Qǐng shuō màn yìdiǎn.', exampleEnglish: 'Please speak more slowly.'),
-    Word(id: '长', hanzi: '长', pinyin: 'cháng', english: 'long', category: 'Adjectives', exampleHanzi: '这条路很长。', examplePinyin: 'Zhè tiáo lù hěn cháng.', exampleEnglish: 'This road is long.'),
-    Word(id: '短', hanzi: '短', pinyin: 'duǎn', english: 'short', category: 'Adjectives', exampleHanzi: '这条裤子太短。', examplePinyin: 'Zhè tiáo kùzi tài duǎn.', exampleEnglish: 'These pants are too short.'),
-    Word(id: '高', hanzi: '高', pinyin: 'gāo', english: 'tall, high', category: 'Adjectives', exampleHanzi: '这座楼很高。', examplePinyin: 'Zhè zuò lóu hěn gāo.', exampleEnglish: 'This building is tall.'),
-    Word(id: '矮', hanzi: '矮', pinyin: 'ǎi', english: 'short (height)', category: 'Adjectives', exampleHanzi: '他比我矮。', examplePinyin: 'Tā bǐ wǒ ǎi.', exampleEnglish: 'He is shorter than me.'),
-    Word(id: '胖', hanzi: '胖', pinyin: 'pàng', english: 'fat', category: 'Adjectives', exampleHanzi: '这只猫很胖。', examplePinyin: 'Zhè zhī māo hěn pàng.', exampleEnglish: 'This cat is fat.'),
-    Word(id: '瘦', hanzi: '瘦', pinyin: 'shòu', english: 'thin, slim', category: 'Adjectives', exampleHanzi: '他很瘦。', examplePinyin: 'Tā hěn shòu.', exampleEnglish: 'He is thin.'),
-    Word(id: '干净', hanzi: '干净', pinyin: 'gān jìng', english: 'clean', category: 'Adjectives', exampleHanzi: '房间很干净。', examplePinyin: 'Fángjiān hěn gānjìng.', exampleEnglish: 'The room is clean.'),
-    Word(id: '脏', hanzi: '脏', pinyin: 'zāng', english: 'dirty', category: 'Adjectives', exampleHanzi: '手很脏。', examplePinyin: 'Shǒu hěn zāng.', exampleEnglish: 'My hands are dirty.'),
-    Word(id: '容易', hanzi: '容易', pinyin: 'róng yì', english: 'easy', category: 'Adjectives', exampleHanzi: '这个问题很容易。', examplePinyin: 'Zhège wèntí hěn róngyì.', exampleEnglish: 'This question is easy.'),
-    Word(id: '难', hanzi: '难', pinyin: 'nán', english: 'difficult', category: 'Adjectives', exampleHanzi: '汉语不难。', examplePinyin: 'Hànyǔ bù nán.', exampleEnglish: "Chinese isn't hard."),
-    Word(id: '对', hanzi: '对', pinyin: 'duì', english: 'correct, right', category: 'Adjectives', exampleHanzi: '你说得对。', examplePinyin: 'Nǐ shuō de duì.', exampleEnglish: "You're right."),
-    Word(id: '错', hanzi: '错', pinyin: 'cuò', english: 'wrong', category: 'Adjectives', exampleHanzi: '这个答案错了。', examplePinyin: "Zhège dá'àn cuò le.", exampleEnglish: 'This answer is wrong.'),
-    Word(id: '一样', hanzi: '一样', pinyin: 'yí yàng', english: 'same', category: 'Adjectives', exampleHanzi: '我们一样高。', examplePinyin: 'Wǒmen yíyàng gāo.', exampleEnglish: 'We are the same height.'),
-    Word(id: '不同', hanzi: '不同', pinyin: 'bù tóng', english: 'different', category: 'Adjectives', exampleHanzi: '我们来自不同的国家。', examplePinyin: 'Wǒmen lái zì bùtóng de guójiā.', exampleEnglish: 'We come from different countries.'),
-    Word(id: '好吃', hanzi: '好吃', pinyin: 'hǎo chī', english: 'delicious', category: 'Adjectives', exampleHanzi: '中国菜很好吃。', examplePinyin: 'Zhōngguó cài hěn hǎochī.', exampleEnglish: 'Chinese food is delicious.'),
-    Word(id: '好看', hanzi: '好看', pinyin: 'hǎo kàn', english: 'good-looking, nice', category: 'Adjectives', exampleHanzi: '这部电影很好看。', examplePinyin: 'Zhè bù diànyǐng hěn hǎokàn.', exampleEnglish: 'This movie is great.'),
-    Word(id: '安静', hanzi: '安静', pinyin: 'ān jìng', english: 'quiet', category: 'Adjectives', exampleHanzi: '图书馆很安静。', examplePinyin: 'Túshūguǎn hěn ānjìng.', exampleEnglish: 'The library is quiet.'),
+    Word(id: '新', hskLevel: 2, hanzi: '新', pinyin: 'xīn', english: 'new', category: 'Adjectives', exampleHanzi: '我有一本新书。', examplePinyin: 'Wǒ yǒu yì běn xīn shū.', exampleEnglish: 'I have a new book.'),
+    Word(id: '旧', hskLevel: 2, hanzi: '旧', pinyin: 'jiù', english: 'old (things)', category: 'Adjectives', exampleHanzi: '这是旧衣服。', examplePinyin: 'Zhè shì jiù yīfu.', exampleEnglish: 'These are old clothes.'),
+    Word(id: '老', hskLevel: 2, hanzi: '老', pinyin: 'lǎo', english: 'old (people)', category: 'Adjectives', exampleHanzi: '那位老人很和善。', examplePinyin: 'Nà wèi lǎorén hěn héshàn.', exampleEnglish: 'That old man is kind.'),
+    Word(id: '年轻', hskLevel: 2, hanzi: '年轻', pinyin: 'nián qīng', english: 'young', category: 'Adjectives', exampleHanzi: '她很年轻。', examplePinyin: 'Tā hěn niánqīng.', exampleEnglish: 'She is young.'),
+    Word(id: '快', hskLevel: 2, hanzi: '快', pinyin: 'kuài', english: 'fast', category: 'Adjectives', exampleHanzi: '火车很快。', examplePinyin: 'Huǒchē hěn kuài.', exampleEnglish: 'The train is fast.'),
+    Word(id: '慢', hskLevel: 2, hanzi: '慢', pinyin: 'màn', english: 'slow', category: 'Adjectives', exampleHanzi: '请说慢一点。', examplePinyin: 'Qǐng shuō màn yìdiǎn.', exampleEnglish: 'Please speak more slowly.'),
+    Word(id: '长', hskLevel: 2, hanzi: '长', pinyin: 'cháng', english: 'long', category: 'Adjectives', exampleHanzi: '这条路很长。', examplePinyin: 'Zhè tiáo lù hěn cháng.', exampleEnglish: 'This road is long.'),
+    Word(id: '短', hskLevel: 2, hanzi: '短', pinyin: 'duǎn', english: 'short', category: 'Adjectives', exampleHanzi: '这条裤子太短。', examplePinyin: 'Zhè tiáo kùzi tài duǎn.', exampleEnglish: 'These pants are too short.'),
+    Word(id: '高', hskLevel: 2, hanzi: '高', pinyin: 'gāo', english: 'tall, high', category: 'Adjectives', exampleHanzi: '这座楼很高。', examplePinyin: 'Zhè zuò lóu hěn gāo.', exampleEnglish: 'This building is tall.'),
+    Word(id: '矮', hskLevel: 2, hanzi: '矮', pinyin: 'ǎi', english: 'short (height)', category: 'Adjectives', exampleHanzi: '他比我矮。', examplePinyin: 'Tā bǐ wǒ ǎi.', exampleEnglish: 'He is shorter than me.'),
+    Word(id: '胖', hskLevel: 2, hanzi: '胖', pinyin: 'pàng', english: 'fat', category: 'Adjectives', exampleHanzi: '这只猫很胖。', examplePinyin: 'Zhè zhī māo hěn pàng.', exampleEnglish: 'This cat is fat.'),
+    Word(id: '瘦', hskLevel: 2, hanzi: '瘦', pinyin: 'shòu', english: 'thin, slim', category: 'Adjectives', exampleHanzi: '他很瘦。', examplePinyin: 'Tā hěn shòu.', exampleEnglish: 'He is thin.'),
+    Word(id: '干净', hskLevel: 2, hanzi: '干净', pinyin: 'gān jìng', english: 'clean', category: 'Adjectives', exampleHanzi: '房间很干净。', examplePinyin: 'Fángjiān hěn gānjìng.', exampleEnglish: 'The room is clean.'),
+    Word(id: '脏', hskLevel: 2, hanzi: '脏', pinyin: 'zāng', english: 'dirty', category: 'Adjectives', exampleHanzi: '手很脏。', examplePinyin: 'Shǒu hěn zāng.', exampleEnglish: 'My hands are dirty.'),
+    Word(id: '容易', hskLevel: 2, hanzi: '容易', pinyin: 'róng yì', english: 'easy', category: 'Adjectives', exampleHanzi: '这个问题很容易。', examplePinyin: 'Zhège wèntí hěn róngyì.', exampleEnglish: 'This question is easy.'),
+    Word(id: '难', hskLevel: 2, hanzi: '难', pinyin: 'nán', english: 'difficult', category: 'Adjectives', exampleHanzi: '汉语不难。', examplePinyin: 'Hànyǔ bù nán.', exampleEnglish: "Chinese isn't hard."),
+    Word(id: '对', hskLevel: 2, hanzi: '对', pinyin: 'duì', english: 'correct, right', category: 'Adjectives', exampleHanzi: '你说得对。', examplePinyin: 'Nǐ shuō de duì.', exampleEnglish: "You're right."),
+    Word(id: '错', hskLevel: 2, hanzi: '错', pinyin: 'cuò', english: 'wrong', category: 'Adjectives', exampleHanzi: '这个答案错了。', examplePinyin: "Zhège dá'àn cuò le.", exampleEnglish: 'This answer is wrong.'),
+    Word(id: '一样', hskLevel: 2, hanzi: '一样', pinyin: 'yí yàng', english: 'same', category: 'Adjectives', exampleHanzi: '我们一样高。', examplePinyin: 'Wǒmen yíyàng gāo.', exampleEnglish: 'We are the same height.'),
+    Word(id: '不同', hskLevel: 2, hanzi: '不同', pinyin: 'bù tóng', english: 'different', category: 'Adjectives', exampleHanzi: '我们来自不同的国家。', examplePinyin: 'Wǒmen lái zì bùtóng de guójiā.', exampleEnglish: 'We come from different countries.'),
+    Word(id: '好吃', hskLevel: 2, hanzi: '好吃', pinyin: 'hǎo chī', english: 'delicious', category: 'Adjectives', exampleHanzi: '中国菜很好吃。', examplePinyin: 'Zhōngguó cài hěn hǎochī.', exampleEnglish: 'Chinese food is delicious.'),
+    Word(id: '好看', hskLevel: 2, hanzi: '好看', pinyin: 'hǎo kàn', english: 'good-looking, nice', category: 'Adjectives', exampleHanzi: '这部电影很好看。', examplePinyin: 'Zhè bù diànyǐng hěn hǎokàn.', exampleEnglish: 'This movie is great.'),
+    Word(id: '安静', hskLevel: 2, hanzi: '安静', pinyin: 'ān jìng', english: 'quiet', category: 'Adjectives', exampleHanzi: '图书馆很安静。', examplePinyin: 'Túshūguǎn hěn ānjìng.', exampleEnglish: 'The library is quiet.'),
 
     // ── More food ──────────────────────────────────────────────────────────
-    Word(id: '面条', hanzi: '面条', pinyin: 'miàn tiáo', english: 'noodles', category: 'Food', exampleHanzi: '我喜欢吃面条。', examplePinyin: 'Wǒ xǐhuan chī miàntiáo.', exampleEnglish: 'I like eating noodles.'),
-    Word(id: '饺子', hanzi: '饺子', pinyin: 'jiǎo zi', english: 'dumpling', category: 'Food', exampleHanzi: '饺子很好吃。', examplePinyin: 'Jiǎozi hěn hǎochī.', exampleEnglish: 'Dumplings are delicious.'),
-    Word(id: '包子', hanzi: '包子', pinyin: 'bāo zi', english: 'steamed bun', category: 'Food', exampleHanzi: '早上我吃包子。', examplePinyin: 'Zǎoshang wǒ chī bāozi.', exampleEnglish: 'I eat steamed buns in the morning.'),
-    Word(id: '汤', hanzi: '汤', pinyin: 'tāng', english: 'soup', category: 'Food', exampleHanzi: '这碗汤很好喝。', examplePinyin: 'Zhè wǎn tāng hěn hǎohē.', exampleEnglish: 'This soup is tasty.'),
-    Word(id: '糖', hanzi: '糖', pinyin: 'táng', english: 'sugar', category: 'Food', exampleHanzi: '咖啡里要糖吗？', examplePinyin: 'Kāfēi lǐ yào táng ma?', exampleEnglish: 'Do you want sugar in your coffee?'),
-    Word(id: '盐', hanzi: '盐', pinyin: 'yán', english: 'salt', category: 'Food', exampleHanzi: '请给我盐。', examplePinyin: 'Qǐng gěi wǒ yán.', exampleEnglish: 'Please pass me the salt.'),
-    Word(id: '啤酒', hanzi: '啤酒', pinyin: 'pí jiǔ', english: 'beer', category: 'Food', exampleHanzi: '我想喝啤酒。', examplePinyin: 'Wǒ xiǎng hē píjiǔ.', exampleEnglish: 'I want to drink beer.'),
-    Word(id: '果汁', hanzi: '果汁', pinyin: 'guǒ zhī', english: 'juice', category: 'Food', exampleHanzi: '我喝苹果汁。', examplePinyin: 'Wǒ hē píngguǒzhī.', exampleEnglish: 'I drink apple juice.'),
-    Word(id: '早餐', hanzi: '早餐', pinyin: 'zǎo cān', english: 'breakfast', category: 'Food', exampleHanzi: '早餐很重要。', examplePinyin: 'Zǎocān hěn zhòngyào.', exampleEnglish: 'Breakfast is important.'),
-    Word(id: '晚餐', hanzi: '晚餐', pinyin: 'wǎn cān', english: 'dinner', category: 'Food', exampleHanzi: '我们七点吃晚餐。', examplePinyin: 'Wǒmen qī diǎn chī wǎncān.', exampleEnglish: 'We have dinner at seven.'),
+    Word(id: '面条', hskLevel: 2, hanzi: '面条', pinyin: 'miàn tiáo', english: 'noodles', category: 'Food', exampleHanzi: '我喜欢吃面条。', examplePinyin: 'Wǒ xǐhuan chī miàntiáo.', exampleEnglish: 'I like eating noodles.'),
+    Word(id: '饺子', hskLevel: 2, hanzi: '饺子', pinyin: 'jiǎo zi', english: 'dumpling', category: 'Food', exampleHanzi: '饺子很好吃。', examplePinyin: 'Jiǎozi hěn hǎochī.', exampleEnglish: 'Dumplings are delicious.'),
+    Word(id: '包子', hskLevel: 2, hanzi: '包子', pinyin: 'bāo zi', english: 'steamed bun', category: 'Food', exampleHanzi: '早上我吃包子。', examplePinyin: 'Zǎoshang wǒ chī bāozi.', exampleEnglish: 'I eat steamed buns in the morning.'),
+    Word(id: '汤', hskLevel: 2, hanzi: '汤', pinyin: 'tāng', english: 'soup', category: 'Food', exampleHanzi: '这碗汤很好喝。', examplePinyin: 'Zhè wǎn tāng hěn hǎohē.', exampleEnglish: 'This soup is tasty.'),
+    Word(id: '糖', hskLevel: 2, hanzi: '糖', pinyin: 'táng', english: 'sugar', category: 'Food', exampleHanzi: '咖啡里要糖吗？', examplePinyin: 'Kāfēi lǐ yào táng ma?', exampleEnglish: 'Do you want sugar in your coffee?'),
+    Word(id: '盐', hskLevel: 2, hanzi: '盐', pinyin: 'yán', english: 'salt', category: 'Food', exampleHanzi: '请给我盐。', examplePinyin: 'Qǐng gěi wǒ yán.', exampleEnglish: 'Please pass me the salt.'),
+    Word(id: '啤酒', hskLevel: 2, hanzi: '啤酒', pinyin: 'pí jiǔ', english: 'beer', category: 'Food', exampleHanzi: '我想喝啤酒。', examplePinyin: 'Wǒ xiǎng hē píjiǔ.', exampleEnglish: 'I want to drink beer.'),
+    Word(id: '果汁', hskLevel: 2, hanzi: '果汁', pinyin: 'guǒ zhī', english: 'juice', category: 'Food', exampleHanzi: '我喝苹果汁。', examplePinyin: 'Wǒ hē píngguǒzhī.', exampleEnglish: 'I drink apple juice.'),
+    Word(id: '早餐', hskLevel: 2, hanzi: '早餐', pinyin: 'zǎo cān', english: 'breakfast', category: 'Food', exampleHanzi: '早餐很重要。', examplePinyin: 'Zǎocān hěn zhòngyào.', exampleEnglish: 'Breakfast is important.'),
+    Word(id: '晚餐', hskLevel: 2, hanzi: '晚餐', pinyin: 'wǎn cān', english: 'dinner', category: 'Food', exampleHanzi: '我们七点吃晚餐。', examplePinyin: 'Wǒmen qī diǎn chī wǎncān.', exampleEnglish: 'We have dinner at seven.'),
 
     // ── More time ──────────────────────────────────────────────────────────
-    Word(id: '上午', hanzi: '上午', pinyin: 'shàng wǔ', english: 'morning (a.m.)', category: 'Time', exampleHanzi: '我上午上课。', examplePinyin: 'Wǒ shàngwǔ shàngkè.', exampleEnglish: 'I have class in the morning.'),
-    Word(id: '下午', hanzi: '下午', pinyin: 'xià wǔ', english: 'afternoon', category: 'Time', exampleHanzi: '我下午去公园。', examplePinyin: 'Wǒ xiàwǔ qù gōngyuán.', exampleEnglish: 'I go to the park in the afternoon.'),
-    Word(id: '分钟', hanzi: '分钟', pinyin: 'fēn zhōng', english: 'minute', category: 'Time', exampleHanzi: '请等五分钟。', examplePinyin: 'Qǐng děng wǔ fēnzhōng.', exampleEnglish: 'Please wait five minutes.'),
-    Word(id: '小时', hanzi: '小时', pinyin: 'xiǎo shí', english: 'hour', category: 'Time', exampleHanzi: '我睡八个小时。', examplePinyin: 'Wǒ shuì bā gè xiǎoshí.', exampleEnglish: 'I sleep eight hours.'),
-    Word(id: '点', hanzi: '点', pinyin: 'diǎn', english: "o'clock", category: 'Time', exampleHanzi: '现在三点。', examplePinyin: 'Xiànzài sān diǎn.', exampleEnglish: "It's three o'clock now."),
-    Word(id: '号', hanzi: '号', pinyin: 'hào', english: 'date (number)', category: 'Time', exampleHanzi: '今天几号？', examplePinyin: 'Jīntiān jǐ hào?', exampleEnglish: "What's the date today?"),
-    Word(id: '周末', hanzi: '周末', pinyin: 'zhōu mò', english: 'weekend', category: 'Time', exampleHanzi: '周末我去玩。', examplePinyin: 'Zhōumò wǒ qù wán.', exampleEnglish: 'I go out on weekends.'),
-    Word(id: '生日', hanzi: '生日', pinyin: 'shēng rì', english: 'birthday', category: 'Time', exampleHanzi: '今天是我的生日。', examplePinyin: 'Jīntiān shì wǒ de shēngrì.', exampleEnglish: 'Today is my birthday.'),
-    Word(id: '节日', hanzi: '节日', pinyin: 'jié rì', english: 'festival, holiday', category: 'Time', exampleHanzi: '春节是中国的节日。', examplePinyin: 'Chūnjié shì Zhōngguó de jiérì.', exampleEnglish: 'Spring Festival is a Chinese festival.'),
-    Word(id: '季节', hanzi: '季节', pinyin: 'jì jié', english: 'season', category: 'Time', exampleHanzi: '一年有四个季节。', examplePinyin: 'Yì nián yǒu sì gè jìjié.', exampleEnglish: 'A year has four seasons.'),
+    Word(id: '上午', hskLevel: 2, hanzi: '上午', pinyin: 'shàng wǔ', english: 'morning (a.m.)', category: 'Time', exampleHanzi: '我上午上课。', examplePinyin: 'Wǒ shàngwǔ shàngkè.', exampleEnglish: 'I have class in the morning.'),
+    Word(id: '下午', hskLevel: 2, hanzi: '下午', pinyin: 'xià wǔ', english: 'afternoon', category: 'Time', exampleHanzi: '我下午去公园。', examplePinyin: 'Wǒ xiàwǔ qù gōngyuán.', exampleEnglish: 'I go to the park in the afternoon.'),
+    Word(id: '分钟', hskLevel: 2, hanzi: '分钟', pinyin: 'fēn zhōng', english: 'minute', category: 'Time', exampleHanzi: '请等五分钟。', examplePinyin: 'Qǐng děng wǔ fēnzhōng.', exampleEnglish: 'Please wait five minutes.'),
+    Word(id: '小时', hskLevel: 2, hanzi: '小时', pinyin: 'xiǎo shí', english: 'hour', category: 'Time', exampleHanzi: '我睡八个小时。', examplePinyin: 'Wǒ shuì bā gè xiǎoshí.', exampleEnglish: 'I sleep eight hours.'),
+    Word(id: '点', hskLevel: 2, hanzi: '点', pinyin: 'diǎn', english: "o'clock", category: 'Time', exampleHanzi: '现在三点。', examplePinyin: 'Xiànzài sān diǎn.', exampleEnglish: "It's three o'clock now."),
+    Word(id: '号', hskLevel: 2, hanzi: '号', pinyin: 'hào', english: 'date (number)', category: 'Time', exampleHanzi: '今天几号？', examplePinyin: 'Jīntiān jǐ hào?', exampleEnglish: "What's the date today?"),
+    Word(id: '周末', hskLevel: 2, hanzi: '周末', pinyin: 'zhōu mò', english: 'weekend', category: 'Time', exampleHanzi: '周末我去玩。', examplePinyin: 'Zhōumò wǒ qù wán.', exampleEnglish: 'I go out on weekends.'),
+    Word(id: '生日', hskLevel: 2, hanzi: '生日', pinyin: 'shēng rì', english: 'birthday', category: 'Time', exampleHanzi: '今天是我的生日。', examplePinyin: 'Jīntiān shì wǒ de shēngrì.', exampleEnglish: 'Today is my birthday.'),
+    Word(id: '节日', hskLevel: 2, hanzi: '节日', pinyin: 'jié rì', english: 'festival, holiday', category: 'Time', exampleHanzi: '春节是中国的节日。', examplePinyin: 'Chūnjié shì Zhōngguó de jiérì.', exampleEnglish: 'Spring Festival is a Chinese festival.'),
+    Word(id: '季节', hskLevel: 2, hanzi: '季节', pinyin: 'jì jié', english: 'season', category: 'Time', exampleHanzi: '一年有四个季节。', examplePinyin: 'Yì nián yǒu sì gè jìjié.', exampleEnglish: 'A year has four seasons.'),
 
     // ── More people ────────────────────────────────────────────────────────
-    Word(id: '男人', hanzi: '男人', pinyin: 'nán rén', english: 'man', category: 'People', exampleHanzi: '那个男人是我爸爸。', examplePinyin: 'Nà gè nánrén shì wǒ bàba.', exampleEnglish: 'That man is my dad.'),
-    Word(id: '女人', hanzi: '女人', pinyin: 'nǚ rén', english: 'woman', category: 'People', exampleHanzi: '那个女人是我妈妈。', examplePinyin: 'Nà gè nǚrén shì wǒ māma.', exampleEnglish: 'That woman is my mom.'),
-    Word(id: '男孩', hanzi: '男孩', pinyin: 'nán hái', english: 'boy', category: 'People', exampleHanzi: '这个男孩很聪明。', examplePinyin: 'Zhège nánhái hěn cōngming.', exampleEnglish: 'This boy is smart.'),
-    Word(id: '女孩', hanzi: '女孩', pinyin: 'nǚ hái', english: 'girl', category: 'People', exampleHanzi: '这个女孩很可爱。', examplePinyin: "Zhège nǚhái hěn kě'ài.", exampleEnglish: 'This girl is cute.'),
-    Word(id: '先生', hanzi: '先生', pinyin: 'xiān sheng', english: 'Mr., sir', category: 'People', exampleHanzi: '王先生，您好！', examplePinyin: 'Wáng xiānsheng, nín hǎo!', exampleEnglish: 'Hello, Mr. Wang!'),
-    Word(id: '女士', hanzi: '女士', pinyin: 'nǚ shì', english: 'Ms., lady', category: 'People', exampleHanzi: '李女士是老师。', examplePinyin: 'Lǐ nǚshì shì lǎoshī.', exampleEnglish: 'Ms. Li is a teacher.'),
-    Word(id: '大家', hanzi: '大家', pinyin: 'dà jiā', english: 'everyone', category: 'People', exampleHanzi: '大家好！', examplePinyin: 'Dàjiā hǎo!', exampleEnglish: 'Hello everyone!'),
+    Word(id: '男人', hskLevel: 2, hanzi: '男人', pinyin: 'nán rén', english: 'man', category: 'People', exampleHanzi: '那个男人是我爸爸。', examplePinyin: 'Nà gè nánrén shì wǒ bàba.', exampleEnglish: 'That man is my dad.'),
+    Word(id: '女人', hskLevel: 2, hanzi: '女人', pinyin: 'nǚ rén', english: 'woman', category: 'People', exampleHanzi: '那个女人是我妈妈。', examplePinyin: 'Nà gè nǚrén shì wǒ māma.', exampleEnglish: 'That woman is my mom.'),
+    Word(id: '男孩', hskLevel: 2, hanzi: '男孩', pinyin: 'nán hái', english: 'boy', category: 'People', exampleHanzi: '这个男孩很聪明。', examplePinyin: 'Zhège nánhái hěn cōngming.', exampleEnglish: 'This boy is smart.'),
+    Word(id: '女孩', hskLevel: 2, hanzi: '女孩', pinyin: 'nǚ hái', english: 'girl', category: 'People', exampleHanzi: '这个女孩很可爱。', examplePinyin: "Zhège nǚhái hěn kě'ài.", exampleEnglish: 'This girl is cute.'),
+    Word(id: '先生', hskLevel: 2, hanzi: '先生', pinyin: 'xiān sheng', english: 'Mr., sir', category: 'People', exampleHanzi: '王先生，您好！', examplePinyin: 'Wáng xiānsheng, nín hǎo!', exampleEnglish: 'Hello, Mr. Wang!'),
+    Word(id: '女士', hskLevel: 2, hanzi: '女士', pinyin: 'nǚ shì', english: 'Ms., lady', category: 'People', exampleHanzi: '李女士是老师。', examplePinyin: 'Lǐ nǚshì shì lǎoshī.', exampleEnglish: 'Ms. Li is a teacher.'),
+    Word(id: '大家', hskLevel: 2, hanzi: '大家', pinyin: 'dà jiā', english: 'everyone', category: 'People', exampleHanzi: '大家好！', examplePinyin: 'Dàjiā hǎo!', exampleEnglish: 'Hello everyone!'),
 
     // ── More places ────────────────────────────────────────────────────────
-    Word(id: '银行', hanzi: '银行', pinyin: 'yín háng', english: 'bank', category: 'Places', exampleHanzi: '我去银行取钱。', examplePinyin: 'Wǒ qù yínháng qǔ qián.', exampleEnglish: 'I go to the bank to withdraw money.'),
-    Word(id: '邮局', hanzi: '邮局', pinyin: 'yóu jú', english: 'post office', category: 'Places', exampleHanzi: '邮局在哪儿？', examplePinyin: 'Yóujú zài nǎr?', exampleEnglish: 'Where is the post office?'),
-    Word(id: '公园', hanzi: '公园', pinyin: 'gōng yuán', english: 'park', category: 'Places', exampleHanzi: '我们去公园散步。', examplePinyin: 'Wǒmen qù gōngyuán sànbù.', exampleEnglish: 'We walk in the park.'),
-    Word(id: '图书馆', hanzi: '图书馆', pinyin: 'tú shū guǎn', english: 'library', category: 'Places', exampleHanzi: '我去图书馆看书。', examplePinyin: 'Wǒ qù túshūguǎn kàn shū.', exampleEnglish: 'I go to the library to read.'),
-    Word(id: '饭店', hanzi: '饭店', pinyin: 'fàn diàn', english: 'restaurant', category: 'Places', exampleHanzi: '这家饭店很好。', examplePinyin: 'Zhè jiā fàndiàn hěn hǎo.', exampleEnglish: 'This restaurant is good.'),
-    Word(id: '厕所', hanzi: '厕所', pinyin: 'cè suǒ', english: 'toilet, restroom', category: 'Places', exampleHanzi: '厕所在哪里？', examplePinyin: 'Cèsuǒ zài nǎlǐ?', exampleEnglish: 'Where is the toilet?'),
-    Word(id: '城市', hanzi: '城市', pinyin: 'chéng shì', english: 'city', category: 'Places', exampleHanzi: '这个城市很大。', examplePinyin: 'Zhège chéngshì hěn dà.', exampleEnglish: 'This city is big.'),
-    Word(id: '国家', hanzi: '国家', pinyin: 'guó jiā', english: 'country', category: 'Places', exampleHanzi: '中国是一个国家。', examplePinyin: 'Zhōngguó shì yí gè guójiā.', exampleEnglish: 'China is a country.'),
+    Word(id: '银行', hskLevel: 2, hanzi: '银行', pinyin: 'yín háng', english: 'bank', category: 'Places', exampleHanzi: '我去银行取钱。', examplePinyin: 'Wǒ qù yínháng qǔ qián.', exampleEnglish: 'I go to the bank to withdraw money.'),
+    Word(id: '邮局', hskLevel: 2, hanzi: '邮局', pinyin: 'yóu jú', english: 'post office', category: 'Places', exampleHanzi: '邮局在哪儿？', examplePinyin: 'Yóujú zài nǎr?', exampleEnglish: 'Where is the post office?'),
+    Word(id: '公园', hskLevel: 2, hanzi: '公园', pinyin: 'gōng yuán', english: 'park', category: 'Places', exampleHanzi: '我们去公园散步。', examplePinyin: 'Wǒmen qù gōngyuán sànbù.', exampleEnglish: 'We walk in the park.'),
+    Word(id: '图书馆', hskLevel: 2, hanzi: '图书馆', pinyin: 'tú shū guǎn', english: 'library', category: 'Places', exampleHanzi: '我去图书馆看书。', examplePinyin: 'Wǒ qù túshūguǎn kàn shū.', exampleEnglish: 'I go to the library to read.'),
+    Word(id: '饭店', hskLevel: 2, hanzi: '饭店', pinyin: 'fàn diàn', english: 'restaurant', category: 'Places', exampleHanzi: '这家饭店很好。', examplePinyin: 'Zhè jiā fàndiàn hěn hǎo.', exampleEnglish: 'This restaurant is good.'),
+    Word(id: '厕所', hskLevel: 2, hanzi: '厕所', pinyin: 'cè suǒ', english: 'toilet, restroom', category: 'Places', exampleHanzi: '厕所在哪里？', examplePinyin: 'Cèsuǒ zài nǎlǐ?', exampleEnglish: 'Where is the toilet?'),
+    Word(id: '城市', hskLevel: 2, hanzi: '城市', pinyin: 'chéng shì', english: 'city', category: 'Places', exampleHanzi: '这个城市很大。', examplePinyin: 'Zhège chéngshì hěn dà.', exampleEnglish: 'This city is big.'),
+    Word(id: '国家', hskLevel: 2, hanzi: '国家', pinyin: 'guó jiā', english: 'country', category: 'Places', exampleHanzi: '中国是一个国家。', examplePinyin: 'Zhōngguó shì yí gè guójiā.', exampleEnglish: 'China is a country.'),
 
     // ── More numbers ───────────────────────────────────────────────────────
-    Word(id: '千', hanzi: '千', pinyin: 'qiān', english: 'thousand', category: 'Numbers', exampleHanzi: '一千元。', examplePinyin: 'Yì qiān yuán.', exampleEnglish: 'One thousand yuan.'),
-    Word(id: '万', hanzi: '万', pinyin: 'wàn', english: 'ten thousand', category: 'Numbers', exampleHanzi: '一万人。', examplePinyin: 'Yí wàn rén.', exampleEnglish: 'Ten thousand people.'),
+    Word(id: '千', hskLevel: 2, hanzi: '千', pinyin: 'qiān', english: 'thousand', category: 'Numbers', exampleHanzi: '一千元。', examplePinyin: 'Yì qiān yuán.', exampleEnglish: 'One thousand yuan.'),
+    Word(id: '万', hskLevel: 2, hanzi: '万', pinyin: 'wàn', english: 'ten thousand', category: 'Numbers', exampleHanzi: '一万人。', examplePinyin: 'Yí wàn rén.', exampleEnglish: 'Ten thousand people.'),
   ];
 
   /// Distinct categories in presentation order.
@@ -1662,6 +1662,24 @@ class VocabularyData {
 
   static List<Word> inCategory(String category) =>
       all.where((w) => w.category == category).toList();
+
+  /// Words in a given HSK band (1, 2 or 3).
+  static List<Word> byLevel(int level) =>
+      all.where((w) => w.hskLevel == level).toList();
+
+  /// Words within a set of HSK bands. An empty set means "all words".
+  static List<Word> byLevels(Set<int> levels) =>
+      levels.isEmpty ? all : all.where((w) => levels.contains(w.hskLevel)).toList();
+
+  /// All HSK levels present in the data.
+  static List<int> get levels {
+    final seen = <int>{};
+    for (final w in all) {
+      seen.add(w.hskLevel);
+    }
+    final list = seen.toList()..sort();
+    return list;
+  }
 
   /// Word-of-the-day, deterministic per calendar day.
   static Word get wordOfTheDay {

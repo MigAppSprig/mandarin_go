@@ -9,6 +9,7 @@ import '../theme/app_theme.dart';
 import '../widgets/speak_button.dart';
 import '../widgets/tone_colored_pinyin.dart';
 import 'about_screen.dart';
+import 'practice_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -45,6 +46,7 @@ class HomeScreen extends StatelessWidget {
           _buildWordOfTheDay(word),
           _buildProgress(progress),
           _buildSections(),
+          _buildPracticeBanner(context),
           _buildTip(),
         ],
       ),
@@ -440,6 +442,71 @@ class HomeScreen extends StatelessWidget {
                     color: Colors.white.withValues(alpha: 0.9),
                   ),
                 ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  // ── Practice banner ─────────────────────────────────────────────────────
+  Widget _buildPracticeBanner(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            AppColors.jade,
+            AppColors.jade.withValues(alpha: 0.78),
+          ],
+          begin: Alignment.centerLeft,
+          end: Alignment.centerRight,
+        ),
+        borderRadius: BorderRadius.circular(22),
+        boxShadow: [
+          BoxShadow(
+            color: AppColors.jade.withValues(alpha: 0.30),
+            blurRadius: 14,
+            offset: const Offset(0, 6),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(22),
+          onTap: () => _push(context, const PracticeScreen()),
+          child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Row(
+              children: [
+                const Text('🧩', style: TextStyle(fontSize: 36)),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'Practice hub',
+                        style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w800,
+                          color: Colors.white,
+                        ),
+                      ),
+                      const SizedBox(height: 3),
+                      Text(
+                        'HSK scope · pinyin drills · smart review',
+                        style: TextStyle(
+                          fontSize: 12.5,
+                          color: Colors.white.withValues(alpha: 0.92),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const Icon(Icons.arrow_forward_ios, color: Colors.white, size: 16),
               ],
             ),
           ),

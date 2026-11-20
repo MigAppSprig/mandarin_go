@@ -19,6 +19,7 @@ class Word {
     required this.pinyin,
     required this.english,
     required this.category,
+    required this.hskLevel,
     required this.exampleHanzi,
     required this.examplePinyin,
     required this.exampleEnglish,
@@ -37,6 +38,9 @@ class Word {
 
   /// Grouping label used across the UI, e.g. "Greetings".
   final String category;
+
+  /// HSK band this word belongs to (1, 2 or 3).
+  final int hskLevel;
 
   final String exampleHanzi;
   final String examplePinyin;

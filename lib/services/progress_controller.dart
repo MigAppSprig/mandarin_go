@@ -29,6 +29,16 @@ class ProgressController extends ChangeNotifier {
   /// are marked learned).
   int get seenCount => _boxes.keys.toSet().union(_learned).length;
 
+  /// Whether the learner has ever reviewed this word.
+  bool isSeen(String id) => _boxes.containsKey(id) || _learned.contains(id);
+
+  /// Words the learner has seen but not yet mastered (box 0 or 1). Used by the
+  /// "smart review" practice to focus on weaker items.
+  Set<String> get weakWordIds => _boxes.entries
+      .where((e) => e.value <= 1)
+      .map((e) => e.key)
+      .toSet();
+
   Future<void> load() async {
     final prefs = await SharedPreferences.getInstance();
     _learned

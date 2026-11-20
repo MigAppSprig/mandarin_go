@@ -9,6 +9,7 @@ import 'package:mandarin_go/data/vocabulary_data.dart';
 import 'package:mandarin_go/data/vocabulary_examples.dart';
 import 'package:mandarin_go/services/online_translator.dart';
 import 'package:mandarin_go/services/pinyin_audio_service.dart';
+import 'package:mandarin_go/services/pinyin_confusion.dart';
 import 'package:mandarin_go/services/pinyin_utils.dart';
 import 'package:mandarin_go/services/translator.dart';
 
@@ -144,6 +145,39 @@ void main() {
 
     test('parseResponse returns null on malformed JSON', () {
       expect(OnlineTranslator.parseResponse('not json'), isNull);
+    });
+  });
+
+  group('Practice', () {
+    test('every word has a valid HSK level', () {
+      for (final w in VocabularyData.all) {
+        expect(w.hskLevel, inInclusiveRange(1, 3), reason: w.id);
+      }
+    });
+
+    test('every HSK level has words', () {
+      for (final level in <int>[1, 2, 3]) {
+        expect(VocabularyData.byLevel(level), isNotEmpty);
+      }
+    });
+
+    test('byLevels filters correctly', () {
+      final hsk1 = VocabularyData.byLevels(<int>{1});
+      expect(hsk1.every((w) => w.hskLevel == 1), isTrue);
+      expect(VocabularyData.byLevels(<int>{}).length, VocabularyData.all.length);
+    });
+
+    test('confusable pinyin options are distinct and wrong', () {
+      const samples = <String>['nǐ hǎo', 'shì', 'zhōng guó', 'xìng qī', 'lǜ sè'];
+      for (final pinyin in samples) {
+        final options = PinyinConfusion.options(pinyin, count: 3);
+        expect(options.length, 3, reason: pinyin);
+        expect(options.toSet().length, options.length, reason: pinyin);
+        expect(options.contains(pinyin), isFalse, reason: pinyin);
+        for (final option in options) {
+          expect(option.trim(), isNotEmpty, reason: pinyin);
+        }
+      }
     });
   });
 }
