@@ -54,6 +54,7 @@ class HomeScreen extends StatelessWidget {
           _buildSections(),
           _buildPracticeBanner(context),
           _buildTip(),
+          _buildCommunityCard(context),
         ],
       ),
     );
@@ -521,6 +522,70 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
+
+  // ── Community ───────────────────────────────────────────────────────────
+  Widget _buildCommunityCard(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.fromLTRB(16, 12, 16, 0),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(
+          color: const Color(0xFF1877F2).withValues(alpha: 0.25),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.04),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(22),
+          onTap: () => _push(context, const CommunityScreen()),
+          child: Padding(
+            padding: const EdgeInsets.all(18),
+            child: Row(
+              children: [
+                const Text('🤝', style: TextStyle(fontSize: 34)),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'Community',
+                        style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w800,
+                          color: AppColors.ink,
+                        ),
+                      ),
+                      const SizedBox(height: 3),
+                      Text(
+                        'Meet Mandarin lovers on Facebook, YouTube & HelloTalk',
+                        style: TextStyle(
+                          fontSize: 12.5,
+                          color: AppColors.muted,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const Icon(
+                  Icons.chevron_right,
+                  color: Color(0xFF1877F2),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 
   // ── Tip ─────────────────────────────────────────────────────────────────
   Widget _buildTip() {
