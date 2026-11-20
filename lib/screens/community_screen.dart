@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../theme/app_theme.dart';
@@ -12,6 +13,19 @@ class CommunityScreen extends StatelessWidget {
       'https://www.facebook.com/search/groups/?q=Learning%20Mandarin%20with%20Martin';
   static const String youtubeUrl = 'https://www.youtube.com/@LearnMandarinwithMartin';
   static const String helloTalkUrl = 'https://hellotalk.com/@LChinese_wMartin';
+
+  /// Copies [text] to the clipboard and confirms with a snack bar.
+  Future<void> _copy(BuildContext context, String text) async {
+    await Clipboard.setData(ClipboardData(text: text));
+    if (context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Copied: $text'),
+          duration: const Duration(seconds: 2),
+        ),
+      );
+    }
+  }
 
   Future<void> _open(BuildContext context, String url) async {
     final uri = Uri.parse(url);
@@ -215,13 +229,26 @@ class CommunityScreen extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 2),
-                      Text(
-                        handle,
-                        style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w700,
-                          color: AppColors.ink,
-                        ),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              handle,
+                              style: const TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: AppColors.ink,
+                              ),
+                            ),
+                          ),
+                          IconButton(
+                            icon: const Icon(Icons.copy, size: 17),
+                            tooltip: 'Copy',
+                            visualDensity: VisualDensity.compact,
+                            color: color,
+                            onPressed: () => _copy(context, handle),
+                          ),
+                        ],
                       ),
                       const SizedBox(height: 4),
                       Text(
