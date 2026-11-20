@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../theme/app_theme.dart';
+import 'community_screen.dart';
 
 /// About & contact page: basic app/website info plus a feedback channel.
 class AboutScreen extends StatelessWidget {
@@ -44,6 +45,7 @@ class AboutScreen extends StatelessWidget {
           _buildHeader(context),
           _buildFeatures(context),
           _buildContact(context),
+          _buildCommunity(context),
           _buildFooter(context),
         ],
       ),
@@ -230,6 +232,28 @@ class AboutScreen extends StatelessWidget {
             ),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _buildCommunity(BuildContext context) {
+    return Card(
+      child: ListTile(
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute<void>(builder: (_) => const CommunityScreen()),
+          );
+        },
+        contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+        leading: const Text('🤝', style: TextStyle(fontSize: 26)),
+        title: const Text(
+          'Community',
+          style: TextStyle(fontWeight: FontWeight.w700),
+        ),
+        subtitle: const Text(
+          'Facebook · YouTube · HelloTalk — learn together',
+        ),
+        trailing: const Icon(Icons.chevron_right),
       ),
     );
   }
