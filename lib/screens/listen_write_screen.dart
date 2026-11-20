@@ -6,6 +6,7 @@ import '../models/vocabulary.dart';
 import '../services/pinyin_utils.dart';
 import '../services/tts_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/speak_button.dart';
 import '../widgets/tone_colored_pinyin.dart';
 
 /// A dictation drill: listen to a word, then type its pinyin.
@@ -264,13 +265,21 @@ class _ListenWriteScreenState extends State<ListenWriteScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          word.exampleHanzi,
-                          style: const TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w600,
-                            color: AppColors.ink,
-                          ),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Expanded(
+                              child: Text(
+                                word.exampleHanzi,
+                                style: const TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w600,
+                                  color: AppColors.ink,
+                                ),
+                              ),
+                            ),
+                            SpeakButton(text: word.exampleHanzi, size: 30),
+                          ],
                         ),
                         const SizedBox(height: 2),
                         ToneColoredPinyin(
